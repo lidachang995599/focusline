@@ -10,7 +10,7 @@
 
 FocusLine 以 **MIT** 许可证开源，代码在 <https://github.com/lidachang995599/focusline>。
 
-欢迎 issue 和 PR；只是用的话不需要 GitHub 账号。
+欢迎 issue 和 PR；只是用的话不需要 GitHub 账号。第三方依赖与许可见 [THIRD-PARTY.md](THIRD-PARTY.md)。
 
 ![阅读线效果](docs/screenshot-page.png)
 

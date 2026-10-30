@@ -10,6 +10,7 @@ const dist = new URL('../dist/', import.meta.url)
 await mkdir(dist, { recursive: true })
 await cp(publicDir, dist, { recursive: true })
 await cp(manifest, new URL('manifest.json', dist))
+await cp(new URL('../THIRD-PARTY.md', import.meta.url), new URL('THIRD-PARTY.md', dist))
 
 // pdf.js ships its own worker plus data files; the reader page loads them from
 // dist/vendor/pdfjs at runtime.
@@ -23,5 +24,6 @@ await cp(new URL('build/pdf.min.mjs', pkg), new URL('pdf.min.mjs', vendor))
 await cp(new URL('build/pdf.worker.min.mjs', pkg), new URL('pdf.worker.min.mjs', vendor))
 await cp(new URL('cmaps/', pkg), new URL('cmaps/', vendor), { recursive: true })
 await cp(new URL('standard_fonts/', pkg), new URL('standard_fonts/', vendor), { recursive: true })
+await cp(new URL('LICENSE', pkg), new URL('LICENSE', vendor))
 
 console.log(`[focusline] static files copied → ${root}dist`)
