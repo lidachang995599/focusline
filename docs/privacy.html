@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FocusLine — Privacy Policy</title>
+    <style>
+:root { color-scheme: light dark; }
+body { max-width: 760px; margin: 48px auto; padding: 0 22px;
+  font: 16px/1.7 -apple-system, "Segoe UI", "PingFang SC", sans-serif; color: #1f2937; background: #fff; }
+h1 { font-size: 30px; margin-bottom: 6px; }
+h2 { font-size: 19px; margin-top: 34px; }
+p, li { color: #374151; }
+code { background: #f3f4f6; padding: 1px 4px; border-radius: 4px; font-size: 0.92em; }
+table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 14px; }
+th, td { border: 1px solid #e5e7eb; padding: 7px 9px; text-align: left; vertical-align: top; }
+th { background: #f9fafb; }
+a { color: #0369a1; }
+footer { margin-top: 44px; font-size: 13px; color: #6b7280; border-top: 1px solid #e5e7eb; padding-top: 14px; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0b1020; color: #e5e7eb; }
+  p, li { color: #cbd5e1; }
+  th { background: #111827; }
+  th, td { border-color: #1e293b; }
+  code { background: #111827; }
+  footer { color: #94a3b8; border-color: #1e293b; }
+}
+</style>
+  </head>
+  <body>
+<h1>FocusLine Privacy Policy</h1>
+<p><strong>Effective date:</strong> 26 October 2026</p>
+<p>FocusLine is a browser extension that dims the page around a draggable reading line and can read the page aloud with a local voice. This policy explains exactly what the extension does with data. It is intentionally short because the extension does very little.</p>
+<h2>Summary</h2>
+<ul><li>FocusLine does <strong>not</strong> collect, transmit, or sell your browsing history.</li><li>Page content never leaves your device.</li><li>Read-aloud uses <strong>local speech engines only</strong>; page text is never sent to a network voice.</li><li>Settings are stored locally in your browser.</li><li>FocusLine makes <strong>no network requests</strong> at all.</li></ul>
+<h2>What is stored, and where</h2>
+<p>FocusLine uses <code>chrome.storage.local</code>, which stays on your device and is not synced to us or anyone else.</p>
+<table><thead><tr><th>Data</th><th>Purpose</th><th>Leaves your device?</th></tr></thead><tbody>
+<tr><td>Per-site settings: band position, height, dim level, colour, calm flag, colour-guide mode, text formatting, selectors of elements you chose to hide</td><td>Restore your reading setup on each website</td><td>No</td></tr>
+<tr><td>The hostname of sites where you changed a setting (used as the storage key)</td><td>Keep settings separate per site</td><td>No</td></tr>
+<tr><td>Reading speed</td><td>Remember your preferred speech rate</td><td>No</td></tr>
+<tr><td>PDF files you open in FocusLine Reader, and the reader's line settings</td><td>Draw the PDF and restore the line position</td><td>No — the file is decoded in memory and never uploaded</td></tr>
+</tbody></table>
+<p>FocusLine does not read or store the content of the pages you visit, keystrokes, form data, passwords, or files. Read-aloud processes page text in memory only; it is not saved. PDFs opened in the reader are decoded in memory to be drawn and are not stored.</p>
+<h2>Network requests</h2>
+<p>The extension contains no analytics SDK, no advertising, no tracking pixels, and no third-party scripts, and it does not call any server of ours.</p>
+<p>The one exception is a <strong>remote PDF you explicitly open in FocusLine Reader</strong>: the browser then fetches that file from the site you came from, using the site permission you granted. Local PDFs opened with “Open file…” or drag-and-drop never leave your device.</p>
+<p>Read-aloud filters <code>speechSynthesis</code> voices to those with <code>localService === true</code>. If the system has no local voice, FocusLine shows a notice and does not fall back to a network voice. The page text is passed only to the browser's on-device speech engine.</p>
+<p>The extension has no support or donation links. Contact details are only in the store listing and the project README; nothing is sent unless you write to that address.</p>
+<h2>Permissions</h2>
+<table><thead><tr><th>Permission</th><th>Why it is needed</th></tr></thead><tbody>
+<tr><td><code>storage</code></td><td>Save your per-site settings locally</td></tr>
+<tr><td><code>activeTab</code></td><td>Access the current tab only after you click the toolbar icon or press the keyboard shortcut</td></tr>
+<tr><td><code>scripting</code></td><td>Inject the reading-line overlay into that tab</td></tr>
+<tr><td>Optional host access</td><td>Requested only when you turn on “Run automatically on this site”, for that one site</td></tr>
+</tbody></table>
+<p>FocusLine does not request access to all websites at install time.</p>
+<h2>Children</h2>
+<p>FocusLine is a general-purpose reading aid and is not directed at children under 13. It does not knowingly collect personal information from anyone.</p>
+<h2>Your control</h2>
+<ul><li>Turn the extension off at any time from the toolbar popup.</li><li>Remove a site's settings by clearing the extension's storage, or uninstall the extension — uninstalling deletes all locally stored settings.</li></ul>
+<h2>Changes</h2>
+<p>If this policy changes materially, the updated version will be published at this URL with a new effective date.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: <strong>lidachang78@gmail.com</strong>. We aim to reply within three business days.</p>
+    <footer>
+      FocusLine is open source under the MIT licence:
+      <a href="https://github.com/lidachang995599/focusline">github.com/lidachang995599/focusline</a>
+    </footer>
+  </body>
+</html>

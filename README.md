@@ -8,7 +8,7 @@
 
 ## 开源
 
-FocusLine 以 **MIT** 许可证开源，代码在 <https://github.com/yourname/focusline>（把 `yourname` 换成你的 GitHub 用户名）。
+FocusLine 以 **MIT** 许可证开源，代码在 <https://github.com/lidachang995599/focusline>。
 
 欢迎 issue 和 PR；只是用的话不需要 GitHub 账号。
 

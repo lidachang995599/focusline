@@ -101,8 +101,8 @@ Dark tile, bright reading band, headline: “Read one line at a time.”
 
 ## Support / privacy URLs
 
-- Privacy policy: `https://<your-domain>/privacy` — **TODO before submitting**: host
-  `docs/PRIVACY.md` publicly and paste the real URL here.
+- Privacy policy: `https://lidachang995599.github.io/focusline/privacy.html` (GitHub Pages,
+  `docs/` folder). Enable Pages in the repository settings once; after that the URL is live.
 - Support email: `lidachang78@gmail.com`
 
 ## Localised listings

@@ -56,7 +56,7 @@ Privacy with no extra steps
 
 No account, no sign-up, no collection of behaviour data. Every setting stays in your local browser and nothing is uploaded to any server. There are no unnecessary permission requests at install — the extension only takes effect on the tab you activate it on. No ads, no third-party scripts, and no user data to sell.
 
-FocusLine is open source under the MIT licence: https://github.com/yourname/focusline
+FocusLine is open source under the MIT licence: https://github.com/lidachang995599/focusline
 
 FocusLine has been completely free from day one, with every feature open: no in-app purchases, no paywall, and no plan to lock the core behind a membership later. If you run into a problem or want a new feature, leave a note on the store page or email lidachang78@gmail.com.
 
@@ -116,7 +116,7 @@ FocusLine 从一开始就是为这些人做的：
 
 没有账号，不用注册，不收集任何用户行为数据；所有设置都保存在你本地的浏览器里，没有任何数据会上传到外部服务器。安装时没有多余的权限请求——只有你主动点击启用时，它才会对当前标签页生效。没有广告，没有第三方脚本，也没有任何可以售卖的用户数据。
 
-FocusLine 以 MIT 许可证开源，代码在 https://github.com/yourname/focusline
+FocusLine 以 MIT 许可证开源，代码在 https://github.com/lidachang995599/focusline
 
 FocusLine 从第一天起就完全免费，所有功能全部开放：没有内购，没有付费墙，以后也不会把核心功能锁进会员体系。遇到问题，或者想要新功能，可以在商店页面留言，也可以直接发邮件到 lidachang78@gmail.com。
 
@@ -176,6 +176,8 @@ FocusLine 從一開始就是為這些人做的：
 
 沒有帳號，不用註冊，不收集任何使用者行為資料；所有設定都儲存在你本地的瀏覽器裡，沒有任何資料會上傳到外部伺服器。安裝時沒有多餘的權限請求——只有你主動點擊啟用時，它才會對目前標籤頁生效。沒有廣告，沒有第三方腳本，也沒有任何可以販售的使用者資料。
 
+FocusLine 以 MIT 授權開源，程式碼在 https://github.com/lidachang995599/focusline
+
 FocusLine 從第一天起就完全免費，所有功能全部開放：沒有內購，沒有付費牆，以後也不會把核心功能鎖進會員體系。遇到問題，或者想要新功能，可以在商店頁面留言，也可以直接寄信到 lidachang78@gmail.com。
 
 現在開啟任意網頁或 PDF，你就有一條只屬於自己的、不被打擾的閱讀線。
@@ -233,6 +235,8 @@ FocusLine nació para estos lectores:
 Privacidad sin pasos extra
 
 Sin cuenta, sin registro, sin recoger datos de comportamiento. Todos los ajustes se quedan en tu navegador y nada se sube a ningún servidor. No hay peticiones de permisos innecesarias al instalar: la extensión solo actúa en la pestaña en la que la activas. Sin anuncios, sin scripts de terceros y sin datos de usuarios que vender.
+
+FocusLine es de código abierto bajo licencia MIT: https://github.com/lidachang995599/focusline
 
 FocusLine es totalmente gratis desde el primer día, con todas las funciones abiertas: sin compras dentro de la app, sin muro de pago y sin planes de encerrar lo esencial en una membresía más adelante. Si tienes un problema o quieres una función nueva, deja un mensaje en la página de la tienda o escribe a lidachang78@gmail.com.
 
@@ -292,6 +296,8 @@ FocusLine は最初から、こういう人のために作っています:
 
 アカウントも登録も不要で、行動データも収集しません。設定はすべてローカルのブラウザに保存され、外部サーバーには何も送られません。インストール時に余計な権限は求めません。あなたが自分で有効にしたときだけ、そのタブに作用します。広告もサードパーティのスクリプトもなく、売れるユーザーデータもありません。
 
+FocusLine は MIT ライセンスのオープンソースです: https://github.com/lidachang995599/focusline
+
 FocusLine は初日から完全無料で、すべての機能を公開しています。アプリ内課金もペイウォールもなく、今後も中核機能を会員制にする予定はありません。困ったことや欲しい機能があれば、ストアページにコメントするか、lidachang78@gmail.com までメールしてください。
 
 いま任意のウェブページか PDF を開けば、あなただけの、邪魔されない読書ラインがあります。
@@ -349,6 +355,8 @@ FocusLine은 처음부터 이런 사람을 위해 만들었습니다:
 군더더기 없는 개인정보 보호
 
 계정도, 가입도, 행동 데이터 수집도 없습니다. 모든 설정은 로컬 브라우저에 남고 외부 서버로 아무것도 전송되지 않습니다. 설치할 때 불필요한 권한을 요구하지 않습니다. 직접 켠 탭에만 작동합니다. 광고도, 타사 스크립트도, 팔 사용자 데이터도 없습니다.
+
+FocusLine은 MIT 라이선스 오픈 소스입니다: https://github.com/lidachang995599/focusline
 
 FocusLine은 첫날부터 완전 무료이고 모든 기능이 열려 있습니다. 인앱 결제도, 페이월도 없으며 앞으로 핵심 기능을 유료 멤버십에 가두지 않을 것입니다. 문제가 생기거나 새 기능이 필요하면 스토어 페이지에 댓글을 남기거나 lidachang78@gmail.com 으로 메일을 보내 주세요.
 
@@ -408,6 +416,8 @@ Une confidentialité sans démarche
 
 Pas de compte, pas d'inscription, pas de collecte de données de comportement. Tous les réglages restent dans votre navigateur et rien n'est envoyé à un serveur. Aucune demande de permission inutile à l'installation : l'extension n'agit que sur l'onglet où vous l'activez. Pas de publicité, pas de scripts tiers, aucune donnée utilisateur à vendre.
 
+FocusLine est open source sous licence MIT : https://github.com/lidachang995599/focusline
+
 FocusLine est entièrement gratuit depuis le premier jour, avec toutes les fonctions ouvertes : pas d'achat intégré, pas de paywall, et aucune intention de réserver le cœur à un abonnement plus tard. Un souci ou une idée ? Laissez un message sur la page du store ou écrivez à lidachang78@gmail.com.
 
 Ouvrez n'importe quelle page ou un PDF : vous avez votre ligne de lecture, à vous, sans dérangement.
@@ -465,6 +475,8 @@ FocusLine с самого начала делалась для таких чит
 Приватность без лишних шагов
 
 Без аккаунта, без регистрации, без сбора данных о поведении. Все настройки остаются в вашем браузере, ничего не загружается на сервер. При установке нет лишних запросов разрешений: расширение действует только на вкладке, где вы его включили. Ни рекламы, ни сторонних скриптов, ни данных, которые можно продать.
+
+FocusLine — открытый проект под лицензией MIT: https://github.com/lidachang995599/focusline
 
 FocusLine полностью бесплатна с первого дня, все функции открыты: без встроенных покупок, без платного доступа и без планов запереть основное в подписку позже. Если что-то не так или хочется новую функцию — напишите на странице магазина или на lidachang78@gmail.com.
 
@@ -524,6 +536,8 @@ Datenschutz ohne Umwege
 
 Kein Konto, keine Anmeldung, keine Erhebung von Verhaltensdaten. Alle Einstellungen bleiben im Browser, nichts wird auf einen Server geladen. Bei der Installation gibt es keine unnötigen Berechtigungsanfragen: Die Erweiterung wirkt nur auf dem Tab, auf dem du sie aktivierst. Keine Werbung, keine Skripte Dritter, keine Nutzerdaten zu verkaufen.
 
+FocusLine ist Open Source unter der MIT-Lizenz: https://github.com/lidachang995599/focusline
+
 FocusLine ist seit dem ersten Tag komplett kostenlos, alle Funktionen offen: keine In-App-Käufe, keine Paywall und kein Plan, den Kern später hinter eine Mitgliedschaft zu legen. Wenn etwas klemmt oder du eine Funktion möchtest, schreib auf der Store-Seite oder an lidachang78@gmail.com.
 
 Öffne jetzt eine beliebige Seite oder ein PDF – und du hast deine eigene, ungestörte Leselinie.
@@ -581,6 +595,8 @@ O FocusLine foi feito desde o início para estes leitores:
 Privacidade sem etapas extras
 
 Sem conta, sem cadastro, sem coleta de dados de comportamento. Todas as configurações ficam no seu navegador e nada é enviado a servidor nenhum. Não há pedidos de permissão desnecessários na instalação: a extensão só age na aba em que você a ativa. Sem anúncios, sem scripts de terceiros e sem dados de usuário para vender.
+
+O FocusLine é open source sob a licença MIT: https://github.com/lidachang995599/focusline
 
 O FocusLine é totalmente gratuito desde o primeiro dia, com todos os recursos abertos: sem compras dentro do app, sem paywall e sem planos de trancar o essencial numa assinatura depois. Se algo der errado ou você quiser um recurso novo, deixe um recado na página da loja ou escreva para lidachang78@gmail.com.
 

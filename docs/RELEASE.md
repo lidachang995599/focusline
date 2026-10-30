@@ -33,9 +33,9 @@ Run before uploading to the Chrome Web Store.
    - `docs/store/01-reading-line-1280x800.png` — ready (derived from `docs/screenshot-page.png`).
    - The old popup screenshot was deleted (it showed v0.1.0 and removed features). Capture the
      current popup, the PDF reader card and the colour guide at 1280×800.
-2. **Privacy policy URL.** `docs/STORE.md` still has `https://<your-domain>/privacy`.
-   Host `docs/PRIVACY.md` somewhere public (GitHub Gist/Pages, Notion, your site) and paste
-   that URL into the listing. The store requires a reachable URL.
+2. **Privacy policy URL.** Rendered to `docs/privacy.html` and intended for GitHub Pages:
+   `https://lidachang995599.github.io/focusline/privacy.html`. Enable Pages in the repo
+   settings (branch `main`, folder `/docs`) and check the URL opens before submitting.
 3. **Listing languages.** The table in `docs/STORE.md` lists 13 languages, but the UI ships
    10. Only add listings you actually translated, or finish the other three.
 4. **Positioning.** The draft title and first line lead with ADHD/dyslexia. One review
