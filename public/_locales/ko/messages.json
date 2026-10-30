@@ -1,0 +1,326 @@
+{
+  "extName": {
+    "message": "FocusLine — 읽기 라인 · ADHD 집중 모드"
+  },
+  "extDescription": {
+    "message": "읽는 줄만 남기고 주변을 어둡게 하는 드래그 가능한 읽기 라인. ADHD·난독증 사용자를 위해. 로컬 전용, 계정 없음."
+  },
+  "popupTitle": {
+    "message": "FocusLine"
+  },
+  "toggleTitle": {
+    "message": "읽기 라인 켜기/끄기"
+  },
+  "toggleAria": {
+    "message": "읽기 라인 켜기/끄기"
+  },
+  "lineHeight": {
+    "message": "라인 높이"
+  },
+  "dim": {
+    "message": "어둡기"
+  },
+  "followCursor": {
+    "message": "커서 따라가기"
+  },
+  "calmMode": {
+    "message": "차분 모드"
+  },
+  "calmModeHint": {
+    "message": "— 애니메이션 중지"
+  },
+  "hideElement": {
+    "message": "요소 숨기기…"
+  },
+  "resetHidden": {
+    "message": "숨김 초기화"
+  },
+  "lineColour": {
+    "message": "라인 색상"
+  },
+  "autoRun": {
+    "message": "이 사이트에서 자동 실행"
+  },
+  "noActiveTab": {
+    "message": "활성 탭이 없습니다."
+  },
+  "unsupportedPage": {
+    "message": "이 페이지에서는 확장 프로그램을 사용할 수 없습니다."
+  },
+  "unsupportedHint": {
+    "message": "일반 웹페이지(http / https)를 열고 다시 시도하세요."
+  },
+  "reloadHint": {
+    "message": "페이지를 새로고침한 뒤 다시 시도하세요."
+  },
+  "hudDrag": {
+    "message": "핸들을 드래그하거나 Alt + ↑ / ↓"
+  },
+  "hudFollow": {
+    "message": "읽기 라인 켜짐 · 커서 따라가기"
+  },
+  "hudPick": {
+    "message": "숨길 요소를 클릭 · Esc 취소"
+  },
+  "hudHidden": {
+    "message": "숨겼습니다. FocusLine 메뉴에서 되돌릴 수 있습니다."
+  },
+  "moveLine": {
+    "message": "읽기 라인 이동"
+  },
+  "welcomeTitle": {
+    "message": "FocusLine에 오신 것을 환영합니다"
+  },
+  "welcomeH1": {
+    "message": "FocusLine이 설치되었습니다"
+  },
+  "welcomeLead": {
+    "message": "읽는 줄만 남기고 주변을 어둡게 하는 드래그 가능한 읽기 라인. ADHD·난독증 사용자를 위해. 계정 없음, 추적 없음, 브라우저 밖으로 나가는 데이터 없음."
+  },
+  "step1Title": {
+    "message": "긴 페이지를 여세요"
+  },
+  "step1Body": {
+    "message": "FocusLine 아이콘을 클릭하고 스위치를 켜면 읽고 있는 줄 주변이 어두워집니다."
+  },
+  "step2Title": {
+    "message": "눈이 편한 위치에 라인을 두세요"
+  },
+  "step2Body": {
+    "message": "오른쪽 핸들을 드래그하거나 <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>를 누르세요. <kbd>Shift</kbd>를 더하면 높이가 바뀝니다."
+  },
+  "step3Title": {
+    "message": "페이지를 조용하게"
+  },
+  "step3Body": {
+    "message": "차분 모드는 애니메이션을 멈춥니다. 떠 있는 배너와 사이드바도 클릭 한 번으로 숨길 수 있습니다."
+  },
+  "calloutTitle": {
+    "message": "설정은 사이트별로 저장됩니다"
+  },
+  "calloutBody": {
+    "message": "각 사이트가 고유의 라인 높이, 어둡기, 숨긴 요소를 기억합니다."
+  },
+  "shortcutLabel": {
+    "message": "어디서나 전환"
+  },
+  "privacyTitle": {
+    "message": "개인정보"
+  },
+  "privacyBody": {
+    "message": "FocusLine은 설정을 이 기기의 <code>chrome.storage.local</code>에 저장합니다. 페이지 내용, 방문 기록, 설정을 외부로 보내지 않으며 네트워크 요청도 전혀 하지 않습니다."
+  },
+  "footerPin": {
+    "message": "툴바에 고정하면 클릭 한 번으로 사용할 수 있습니다."
+  },
+  "footerHelp": {
+    "message": "도움이 필요하신가요?"
+  },
+  "language": {
+    "message": "언어"
+  },
+  "languageAuto": {
+    "message": "자동 (브라우저)"
+  },
+  "textPanel": {
+    "message": "텍스트"
+  },
+  "textSize": {
+    "message": "글자 크기"
+  },
+  "textLineHeight": {
+    "message": "줄 높이"
+  },
+  "textSpacing": {
+    "message": "자간"
+  },
+  "textTheme": {
+    "message": "테마"
+  },
+  "resetText": {
+    "message": "텍스트 초기화"
+  },
+  "themeDefault": {
+    "message": "기본"
+  },
+  "themePaper": {
+    "message": "종이"
+  },
+  "themeDark": {
+    "message": "어둡게"
+  },
+  "themeContrast": {
+    "message": "고대비"
+  },
+  "colourSky": {
+    "message": "하늘색"
+  },
+  "colourAmber": {
+    "message": "호박색"
+  },
+  "colourViolet": {
+    "message": "보라"
+  },
+  "colourGreen": {
+    "message": "초록"
+  },
+  "colourRose": {
+    "message": "로즈"
+  },
+  "readAloud": {
+    "message": "소리 내어 읽기"
+  },
+  "readPause": {
+    "message": "일시정지"
+  },
+  "readResume": {
+    "message": "계속"
+  },
+  "readStop": {
+    "message": "읽기 중지"
+  },
+  "readSpeed": {
+    "message": "읽기 속도"
+  },
+  "hudSpeaking": {
+    "message": "읽는 중 · Esc로 중지"
+  },
+  "hudPaused": {
+    "message": "읽기 일시정지됨"
+  },
+  "readNoText": {
+    "message": "읽을 수 있는 텍스트가 없습니다"
+  },
+  "readNoVoice": {
+    "message": "사용 가능한 로컬 음성이 없습니다"
+  },
+  "readUnsupported": {
+    "message": "이 브라우저는 읽기를 지원하지 않습니다"
+  },
+  "presetReading": {
+    "message": "난독증 친화 프리셋"
+  },
+  "readHighlight": {
+    "message": "강조 색상"
+  },
+  "colourOrange": {
+    "message": "주황"
+  },
+  "readLanguage": {
+    "message": "읽기 언어"
+  },
+  "readLangAuto": {
+    "message": "자동(페이지/인터페이스)"
+  },
+  "shortcutReset": {
+    "message": "초기화"
+  },
+  "placeHint": {
+    "message": "Alt + 클릭으로 해당 줄에 선을 놓습니다"
+  },
+  "guideLabel": {
+    "message": "색상 가이드"
+  },
+  "guideOff": {
+    "message": "끔"
+  },
+  "guideWords": {
+    "message": "단어"
+  },
+  "guideSentence": {
+    "message": "문장"
+  },
+  "lockLine": {
+    "message": "위치 고정"
+  },
+  "hudLocked": {
+    "message": "줄 고정됨"
+  },
+  "hudUnlocked": {
+    "message": "줄 고정 해제됨"
+  },
+  "pdfTitle": {
+    "message": "PDF 파일입니다"
+  },
+  "pdfHint": {
+    "message": "Chrome의 기본 PDF 뷰어는 확장 프로그램이 수정할 수 없습니다. FocusLine Reader에서 열면 읽기 줄이 표시됩니다."
+  },
+  "pdfOpen": {
+    "message": "FocusLine Reader에서 열기"
+  },
+  "pdfReader": {
+    "message": "리더"
+  },
+  "pdfOpenFile": {
+    "message": "파일 열기…"
+  },
+  "pdfEmptyTitle": {
+    "message": "PDF를 열어 시작하세요"
+  },
+  "pdfEmptyHint": {
+    "message": "PDF를 이 페이지에 끌어다 놓거나 \"파일 열기…\"를 사용하세요."
+  },
+  "pdfErrorTitle": {
+    "message": "이 PDF를 열 수 없습니다"
+  },
+  "pdfRetry": {
+    "message": "다시 시도"
+  },
+  "pdfNeedPermission": {
+    "message": "PDF를 읽으려면 이 사이트 접근 권한이 필요합니다. 팝업에서 열어 권한을 허용해 주세요."
+  },
+  "pdfClose": {
+    "message": "파일 닫기"
+  },
+  "snapLines": {
+    "message": "텍스트 줄에 맞추기"
+  },
+  "hudSnap": {
+    "message": "읽기 줄 켜짐 · 텍스트 줄에 맞춤"
+  },
+  "guideColours": {
+    "message": "가이드 색상"
+  },
+  "pinHint": {
+    "message": "Alt + 클릭으로 고정 · Alt + 오른쪽 클릭으로 해제"
+  },
+  "panelCollapse": {
+    "message": "컨트롤 숨기기"
+  },
+  "panelShow": {
+    "message": "컨트롤 표시"
+  },
+  "shortcutsTitle": {
+    "message": "키보드 단축키"
+  },
+  "scLock": {
+    "message": "줄 고정 또는 해제"
+  },
+  "scMove": {
+    "message": "줄 위아래 이동"
+  },
+  "scResize": {
+    "message": "줄 높이 조절"
+  },
+  "scPlace": {
+    "message": "텍스트 줄에 줄 배치"
+  },
+  "scRelease": {
+    "message": "고정 해제"
+  },
+  "scRebind": {
+    "message": "켜기/끄기와 고정 키는 브라우저의 확장 프로그램 단축키 페이지에서 변경할 수 있습니다."
+  },
+  "scPlaceKey": {
+    "message": "Alt + 클릭"
+  },
+  "scReleaseKey": {
+    "message": "Alt + 오른쪽 클릭"
+  },
+  "openReader": {
+    "message": "PDF 리더 열기"
+  },
+  "translationNote": {
+    "message": "번역 오류를 발견하셨나요? 개발자에게 알려 주세요."
+  }
+}

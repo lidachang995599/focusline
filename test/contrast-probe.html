@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="fl-typography">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      html.fl-typography:not(#fl-never),
+      html.fl-typography:not(#fl-never) body {
+        background-color: #f7f3e9 !important;
+      }
+      html.fl-typography:not(#fl-never) body {
+        color: #2b2b2b !important;
+      }
+      a {
+        color: #0b5fa5;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="normal">Normal paragraph</p>
+    <div id="cookie" style="background:#111827;color:#e5e7eb">
+      <strong id="cookieText">We value your privacy</strong>
+      <a id="cookieLink" href="#">link</a>
+    </div>
+    <script>
+      document.title = [
+        getComputedStyle(document.getElementById('normal')).color,
+        getComputedStyle(document.getElementById('cookieText')).color,
+        getComputedStyle(document.getElementById('cookieLink')).color,
+      ].join(' | ')
+    </script>
+  </body>
+</html>

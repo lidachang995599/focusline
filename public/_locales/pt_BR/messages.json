@@ -1,0 +1,326 @@
+{
+  "extName": {
+    "message": "FocusLine — Linha de Leitura e Modo Foco para TDAH"
+  },
+  "extDescription": {
+    "message": "Uma linha de leitura arrastável que escurece o resto da página. Para pessoas com TDAH e dislexia. Tudo local, sem conta."
+  },
+  "popupTitle": {
+    "message": "FocusLine"
+  },
+  "toggleTitle": {
+    "message": "Ativar ou desativar a linha de leitura"
+  },
+  "toggleAria": {
+    "message": "Ativar ou desativar a linha de leitura"
+  },
+  "lineHeight": {
+    "message": "Altura da linha"
+  },
+  "dim": {
+    "message": "Escurecimento"
+  },
+  "followCursor": {
+    "message": "Seguir o cursor"
+  },
+  "calmMode": {
+    "message": "Modo calmo"
+  },
+  "calmModeHint": {
+    "message": "— parar animações"
+  },
+  "hideElement": {
+    "message": "Ocultar um elemento…"
+  },
+  "resetHidden": {
+    "message": "Restaurar ocultos"
+  },
+  "lineColour": {
+    "message": "Cor da linha"
+  },
+  "autoRun": {
+    "message": "Ativar automaticamente neste site"
+  },
+  "noActiveTab": {
+    "message": "Nenhuma aba ativa."
+  },
+  "unsupportedPage": {
+    "message": "Esta página não aceita extensões."
+  },
+  "unsupportedHint": {
+    "message": "Abra uma página normal (http / https) e tente de novo."
+  },
+  "reloadHint": {
+    "message": "Recarregue a página e tente de novo."
+  },
+  "hudDrag": {
+    "message": "Arraste a alça ou pressione Alt + ↑ / ↓"
+  },
+  "hudFollow": {
+    "message": "Linha de leitura ativa · seguindo o cursor"
+  },
+  "hudPick": {
+    "message": "Clique no elemento para ocultar · Esc para cancelar"
+  },
+  "hudHidden": {
+    "message": "Ocultado. Desfaça no menu do FocusLine."
+  },
+  "moveLine": {
+    "message": "Mover a linha de leitura"
+  },
+  "welcomeTitle": {
+    "message": "Bem-vindo ao FocusLine"
+  },
+  "welcomeH1": {
+    "message": "FocusLine instalado"
+  },
+  "welcomeLead": {
+    "message": "Uma linha de leitura arrastável que escurece todo o resto. Para pessoas com TDAH e dislexia — sem conta, sem rastreamento, nada sai do seu navegador."
+  },
+  "step1Title": {
+    "message": "Abra qualquer página longa"
+  },
+  "step1Body": {
+    "message": "Clique no ícone do FocusLine, ligue o interruptor e a página escurece ao redor da linha que você está lendo."
+  },
+  "step2Title": {
+    "message": "Coloque a linha onde seus olhos descansam"
+  },
+  "step2Body": {
+    "message": "Arraste a alça à direita ou pressione <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>. Adicione <kbd>Shift</kbd> para mudar a altura."
+  },
+  "step3Title": {
+    "message": "Deixe a página silenciosa"
+  },
+  "step3Body": {
+    "message": "O modo calmo para as animações. Você também pode ocultar banners flutuantes e barras laterais com um clique."
+  },
+  "calloutTitle": {
+    "message": "Seus ajustes seguem o site"
+  },
+  "calloutBody": {
+    "message": "Cada site lembra sua própria altura, escurecimento e elementos ocultos."
+  },
+  "shortcutLabel": {
+    "message": "Alternar em qualquer lugar"
+  },
+  "privacyTitle": {
+    "message": "Privacidade"
+  },
+  "privacyBody": {
+    "message": "O FocusLine guarda seus ajustes em <code>chrome.storage.local</code> neste dispositivo. Nunca envia conteúdo de páginas, histórico ou ajustes, e não faz nenhuma requisição de rede."
+  },
+  "footerPin": {
+    "message": "Fixe o FocusLine na barra de ferramentas para acessar com um clique."
+  },
+  "footerHelp": {
+    "message": "Precisa de ajuda?"
+  },
+  "language": {
+    "message": "Idioma"
+  },
+  "languageAuto": {
+    "message": "Automático (navegador)"
+  },
+  "textPanel": {
+    "message": "Texto"
+  },
+  "textSize": {
+    "message": "Tamanho do texto"
+  },
+  "textLineHeight": {
+    "message": "Altura da linha"
+  },
+  "textSpacing": {
+    "message": "Espaçamento entre letras"
+  },
+  "textTheme": {
+    "message": "Tema"
+  },
+  "resetText": {
+    "message": "Redefinir texto"
+  },
+  "themeDefault": {
+    "message": "Padrão"
+  },
+  "themePaper": {
+    "message": "Papel"
+  },
+  "themeDark": {
+    "message": "Escuro"
+  },
+  "themeContrast": {
+    "message": "Alto contraste"
+  },
+  "colourSky": {
+    "message": "Azul-céu"
+  },
+  "colourAmber": {
+    "message": "Âmbar"
+  },
+  "colourViolet": {
+    "message": "Violeta"
+  },
+  "colourGreen": {
+    "message": "Verde"
+  },
+  "colourRose": {
+    "message": "Rosa"
+  },
+  "readAloud": {
+    "message": "Ler em voz alta"
+  },
+  "readPause": {
+    "message": "Pausar"
+  },
+  "readResume": {
+    "message": "Retomar"
+  },
+  "readStop": {
+    "message": "Parar leitura"
+  },
+  "readSpeed": {
+    "message": "Velocidade de leitura"
+  },
+  "hudSpeaking": {
+    "message": "Lendo · Esc para parar"
+  },
+  "hudPaused": {
+    "message": "Leitura pausada"
+  },
+  "readNoText": {
+    "message": "Nenhum texto legível encontrado"
+  },
+  "readNoVoice": {
+    "message": "Nenhuma voz local disponível"
+  },
+  "readUnsupported": {
+    "message": "Este navegador não pode ler em voz alta"
+  },
+  "presetReading": {
+    "message": "Predefinição para dislexia"
+  },
+  "readHighlight": {
+    "message": "Cor do destaque"
+  },
+  "colourOrange": {
+    "message": "Laranja"
+  },
+  "readLanguage": {
+    "message": "Idioma de leitura"
+  },
+  "readLangAuto": {
+    "message": "Automático (página / interface)"
+  },
+  "shortcutReset": {
+    "message": "Redefinir"
+  },
+  "placeHint": {
+    "message": "Alt + clique para posicionar a linha"
+  },
+  "guideLabel": {
+    "message": "Guia de cor"
+  },
+  "guideOff": {
+    "message": "Desligado"
+  },
+  "guideWords": {
+    "message": "Palavras"
+  },
+  "guideSentence": {
+    "message": "Frase"
+  },
+  "lockLine": {
+    "message": "Bloquear posição"
+  },
+  "hudLocked": {
+    "message": "Linha bloqueada"
+  },
+  "hudUnlocked": {
+    "message": "Linha liberada"
+  },
+  "pdfTitle": {
+    "message": "Isto é um PDF"
+  },
+  "pdfHint": {
+    "message": "O visualizador de PDF do Chrome não pode ser modificado por extensões. Abra o arquivo no FocusLine Reader para ter a linha de leitura."
+  },
+  "pdfOpen": {
+    "message": "Abrir no FocusLine Reader"
+  },
+  "pdfReader": {
+    "message": "Leitor"
+  },
+  "pdfOpenFile": {
+    "message": "Abrir arquivo…"
+  },
+  "pdfEmptyTitle": {
+    "message": "Abra um PDF para começar"
+  },
+  "pdfEmptyHint": {
+    "message": "Arraste um PDF para esta página ou use \"Abrir arquivo…\"."
+  },
+  "pdfErrorTitle": {
+    "message": "Não foi possível abrir este PDF"
+  },
+  "pdfRetry": {
+    "message": "Tentar novamente"
+  },
+  "pdfNeedPermission": {
+    "message": "O FocusLine precisa de acesso a este site para ler o PDF. Abra pelo popup para que a extensão possa pedir permissão."
+  },
+  "pdfClose": {
+    "message": "Fechar arquivo"
+  },
+  "snapLines": {
+    "message": "Encaixar nas linhas de texto"
+  },
+  "hudSnap": {
+    "message": "Linha ativa · encaixando nas linhas"
+  },
+  "guideColours": {
+    "message": "Cores do guia"
+  },
+  "pinHint": {
+    "message": "Alt + clique fixa a linha · Alt + clique direito libera"
+  },
+  "panelCollapse": {
+    "message": "Ocultar controles"
+  },
+  "panelShow": {
+    "message": "Mostrar controles"
+  },
+  "shortcutsTitle": {
+    "message": "Atalhos de teclado"
+  },
+  "scLock": {
+    "message": "Fixar ou liberar a linha"
+  },
+  "scMove": {
+    "message": "Mover a linha"
+  },
+  "scResize": {
+    "message": "Aumentar ou reduzir a altura da linha"
+  },
+  "scPlace": {
+    "message": "Posicionar a linha em uma linha de texto"
+  },
+  "scRelease": {
+    "message": "Liberar a fixação"
+  },
+  "scRebind": {
+    "message": "Altere as teclas de ativar e fixar na página de atalhos de extensões do navegador."
+  },
+  "scPlaceKey": {
+    "message": "Alt + clique"
+  },
+  "scReleaseKey": {
+    "message": "Alt + clique direito"
+  },
+  "openReader": {
+    "message": "Abrir leitor de PDF"
+  },
+  "translationNote": {
+    "message": "Encontrou um erro de tradução? Avise o desenvolvedor."
+  }
+}

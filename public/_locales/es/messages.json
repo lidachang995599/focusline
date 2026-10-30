@@ -1,0 +1,326 @@
+{
+  "extName": {
+    "message": "FocusLine — Línea de lectura y modo enfoque ADHD"
+  },
+  "extDescription": {
+    "message": "Una línea de lectura arrastrable que atenúa el resto de la página. Para personas con TDAH y dislexia. Todo local, sin cuenta."
+  },
+  "popupTitle": {
+    "message": "FocusLine"
+  },
+  "toggleTitle": {
+    "message": "Activar o desactivar la línea de lectura"
+  },
+  "toggleAria": {
+    "message": "Activar o desactivar la línea de lectura"
+  },
+  "lineHeight": {
+    "message": "Altura de la línea"
+  },
+  "dim": {
+    "message": "Atenuación"
+  },
+  "followCursor": {
+    "message": "Seguir al cursor"
+  },
+  "calmMode": {
+    "message": "Modo calma"
+  },
+  "calmModeHint": {
+    "message": "— detener animaciones"
+  },
+  "hideElement": {
+    "message": "Ocultar un elemento…"
+  },
+  "resetHidden": {
+    "message": "Restaurar ocultos"
+  },
+  "lineColour": {
+    "message": "Color de la línea"
+  },
+  "autoRun": {
+    "message": "Activar automáticamente en este sitio"
+  },
+  "noActiveTab": {
+    "message": "No hay pestaña activa."
+  },
+  "unsupportedPage": {
+    "message": "Esta página no admite extensiones."
+  },
+  "unsupportedHint": {
+    "message": "Abre una página web normal (http / https) e inténtalo de nuevo."
+  },
+  "reloadHint": {
+    "message": "Recarga la página e inténtalo de nuevo."
+  },
+  "hudDrag": {
+    "message": "Arrastra el tirador o pulsa Alt + ↑ / ↓"
+  },
+  "hudFollow": {
+    "message": "Línea de lectura activa · sigue al cursor"
+  },
+  "hudPick": {
+    "message": "Haz clic en el elemento a ocultar · Esc para cancelar"
+  },
+  "hudHidden": {
+    "message": "Oculto. Puedes restaurarlo desde el menú de FocusLine."
+  },
+  "moveLine": {
+    "message": "Mover la línea de lectura"
+  },
+  "welcomeTitle": {
+    "message": "Te damos la bienvenida a FocusLine"
+  },
+  "welcomeH1": {
+    "message": "FocusLine está instalado"
+  },
+  "welcomeLead": {
+    "message": "Una línea de lectura arrastrable que atenúa todo lo demás. Para personas con TDAH y dislexia: sin cuenta, sin rastreo y nada sale de tu navegador."
+  },
+  "step1Title": {
+    "message": "Abre cualquier página larga"
+  },
+  "step1Body": {
+    "message": "Haz clic en el icono de FocusLine, activa el interruptor y la página se atenuará alrededor de la línea que estás leyendo."
+  },
+  "step2Title": {
+    "message": "Coloca la línea donde descansan tus ojos"
+  },
+  "step2Body": {
+    "message": "Arrastra el tirador de la derecha o pulsa <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>. Añade <kbd>Shift</kbd> para cambiar la altura."
+  },
+  "step3Title": {
+    "message": "Silencia la página"
+  },
+  "step3Body": {
+    "message": "El modo calma detiene las animaciones. También puedes ocultar banners flotantes y barras laterales con un clic."
+  },
+  "calloutTitle": {
+    "message": "Tus ajustes siguen al sitio"
+  },
+  "calloutBody": {
+    "message": "Cada sitio recuerda su propia altura, atenuación y elementos ocultos."
+  },
+  "shortcutLabel": {
+    "message": "Cambiar en cualquier momento"
+  },
+  "privacyTitle": {
+    "message": "Privacidad"
+  },
+  "privacyBody": {
+    "message": "FocusLine guarda tus ajustes en <code>chrome.storage.local</code> en este dispositivo. Nunca envía contenido de páginas, historial ni ajustes, y no realiza ninguna petición de red."
+  },
+  "footerPin": {
+    "message": "Fija FocusLine en la barra de herramientas para abrirlo con un clic."
+  },
+  "footerHelp": {
+    "message": "¿Necesitas ayuda?"
+  },
+  "language": {
+    "message": "Idioma"
+  },
+  "languageAuto": {
+    "message": "Automático (navegador)"
+  },
+  "textPanel": {
+    "message": "Texto"
+  },
+  "textSize": {
+    "message": "Tamaño del texto"
+  },
+  "textLineHeight": {
+    "message": "Altura de línea"
+  },
+  "textSpacing": {
+    "message": "Espaciado entre letras"
+  },
+  "textTheme": {
+    "message": "Tema"
+  },
+  "resetText": {
+    "message": "Restablecer texto"
+  },
+  "themeDefault": {
+    "message": "Predeterminado"
+  },
+  "themePaper": {
+    "message": "Papel"
+  },
+  "themeDark": {
+    "message": "Oscuro"
+  },
+  "themeContrast": {
+    "message": "Alto contraste"
+  },
+  "colourSky": {
+    "message": "Azul cielo"
+  },
+  "colourAmber": {
+    "message": "Ámbar"
+  },
+  "colourViolet": {
+    "message": "Violeta"
+  },
+  "colourGreen": {
+    "message": "Verde"
+  },
+  "colourRose": {
+    "message": "Rosa"
+  },
+  "readAloud": {
+    "message": "Leer en voz alta"
+  },
+  "readPause": {
+    "message": "Pausar"
+  },
+  "readResume": {
+    "message": "Reanudar"
+  },
+  "readStop": {
+    "message": "Detener lectura"
+  },
+  "readSpeed": {
+    "message": "Velocidad de lectura"
+  },
+  "hudSpeaking": {
+    "message": "Leyendo · Esc para detener"
+  },
+  "hudPaused": {
+    "message": "Lectura en pausa"
+  },
+  "readNoText": {
+    "message": "No se encontró texto legible"
+  },
+  "readNoVoice": {
+    "message": "No hay voz local disponible"
+  },
+  "readUnsupported": {
+    "message": "Este navegador no puede leer en voz alta"
+  },
+  "presetReading": {
+    "message": "Preset para dislexia"
+  },
+  "readHighlight": {
+    "message": "Color de resaltado"
+  },
+  "colourOrange": {
+    "message": "Naranja"
+  },
+  "readLanguage": {
+    "message": "Idioma de lectura"
+  },
+  "readLangAuto": {
+    "message": "Automático (página / interfaz)"
+  },
+  "shortcutReset": {
+    "message": "Restablecer"
+  },
+  "placeHint": {
+    "message": "Alt + clic en cualquier punto para colocar la línea"
+  },
+  "guideLabel": {
+    "message": "Guía de color"
+  },
+  "guideOff": {
+    "message": "Apagado"
+  },
+  "guideWords": {
+    "message": "Palabras"
+  },
+  "guideSentence": {
+    "message": "Frase"
+  },
+  "lockLine": {
+    "message": "Bloquear posición"
+  },
+  "hudLocked": {
+    "message": "Línea bloqueada"
+  },
+  "hudUnlocked": {
+    "message": "Línea liberada"
+  },
+  "pdfTitle": {
+    "message": "Esto es un PDF"
+  },
+  "pdfHint": {
+    "message": "El visor PDF integrado de Chrome no se puede modificar desde una extensión. Ábrelo en FocusLine Reader para tener la línea de lectura."
+  },
+  "pdfOpen": {
+    "message": "Abrir en FocusLine Reader"
+  },
+  "pdfReader": {
+    "message": "Lector"
+  },
+  "pdfOpenFile": {
+    "message": "Abrir archivo…"
+  },
+  "pdfEmptyTitle": {
+    "message": "Abre un PDF para empezar"
+  },
+  "pdfEmptyHint": {
+    "message": "Arrastra un PDF a esta página o usa «Abrir archivo…»."
+  },
+  "pdfErrorTitle": {
+    "message": "No se pudo abrir este PDF"
+  },
+  "pdfRetry": {
+    "message": "Reintentar"
+  },
+  "pdfNeedPermission": {
+    "message": "FocusLine necesita acceso a este sitio para leer el PDF. Ábrelo desde el popup para que la extensión pueda pedir permiso."
+  },
+  "pdfClose": {
+    "message": "Cerrar archivo"
+  },
+  "snapLines": {
+    "message": "Ajustar a las líneas de texto"
+  },
+  "hudSnap": {
+    "message": "Línea activa · ajustándose a las líneas"
+  },
+  "guideColours": {
+    "message": "Colores de la guía"
+  },
+  "pinHint": {
+    "message": "Alt + clic fija la línea · Alt + clic derecho la libera"
+  },
+  "panelCollapse": {
+    "message": "Ocultar controles"
+  },
+  "panelShow": {
+    "message": "Mostrar controles"
+  },
+  "shortcutsTitle": {
+    "message": "Atajos de teclado"
+  },
+  "scLock": {
+    "message": "Bloquear o liberar la línea"
+  },
+  "scMove": {
+    "message": "Mover la línea"
+  },
+  "scResize": {
+    "message": "Aumentar o reducir la altura de la línea"
+  },
+  "scPlace": {
+    "message": "Colocar la línea sobre una línea de texto"
+  },
+  "scRelease": {
+    "message": "Liberar el bloqueo"
+  },
+  "scRebind": {
+    "message": "Cambia las teclas de activación y bloqueo en la página de atajos de extensiones del navegador."
+  },
+  "scPlaceKey": {
+    "message": "Alt + clic"
+  },
+  "scReleaseKey": {
+    "message": "Alt + clic derecho"
+  },
+  "openReader": {
+    "message": "Abrir lector de PDF"
+  },
+  "translationNote": {
+    "message": "¿Ves un error de traducción? Avísale al desarrollador."
+  }
+}

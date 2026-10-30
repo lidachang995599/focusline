@@ -1,0 +1,24 @@
+{
+  "name": "focusline",
+  "version": "0.2.1",
+  "private": true,
+  "type": "module",
+  "description": "FocusLine - a draggable reading line and calm mode for ADHD / dyslexia readers.",
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "build": "node scripts/clean.mjs && tsc -p tsconfig.json && node scripts/copy-static.mjs && node scripts/check-package.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node test/content.test.mjs && node test/popup.test.mjs && node test/background.test.mjs && node test/i18n.test.mjs && node test/reader-speech.test.mjs",
+    "dev": "tsc -p tsconfig.json --watch",
+    "samples": "node scripts/make-samples.mjs",
+    "check": "node scripts/check-package.mjs"
+  },
+  "devDependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@types/chrome": "^0.3.6",
+    "jsdom": "^24.1.3",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.10.38",
+    "typescript": "^7.0.2"
+  }
+}

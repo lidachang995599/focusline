@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FocusLine harness</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font: 17px/1.75 Georgia, "Times New Roman", serif;
+        color: #1f2937;
+        background: #fbfaf7;
+      }
+      .banner {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        padding: 12px;
+        background: #f97316;
+        color: #fff;
+        font: 600 14px/1.2 system-ui, sans-serif;
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        50% {
+          filter: brightness(1.15);
+        }
+      }
+      .cookie {
+        position: fixed;
+        right: 24px;
+        bottom: 24px;
+        width: 280px;
+        padding: 18px;
+        border-radius: 14px;
+        background: #111827;
+        color: #e5e7eb;
+        font: 13px/1.5 system-ui, sans-serif;
+        z-index: 9;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+      }
+      .cookie button {
+        margin-top: 10px;
+        padding: 7px 12px;
+        border: 0;
+        border-radius: 8px;
+        background: #38bdf8;
+        font-weight: 600;
+      }
+      .layout {
+        display: grid;
+        grid-template-columns: 220px minmax(0, 680px);
+        gap: 56px;
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 90px 24px 120px;
+      }
+      aside {
+        position: sticky;
+        top: 90px;
+        align-self: start;
+        font: 13px/1.9 system-ui, sans-serif;
+        color: #6b7280;
+        border-left: 3px solid #e5e7eb;
+        padding-left: 16px;
+      }
+      nav a {
+        display: block;
+        color: #374151;
+        text-decoration: none;
+      }
+      h1 {
+        font-size: 40px;
+        line-height: 1.15;
+        letter-spacing: -0.6px;
+        margin: 0 0 10px;
+      }
+      h2 {
+        font-size: 24px;
+        margin: 38px 0 8px;
+      }
+      .meta {
+        font: 13px/1.4 system-ui, sans-serif;
+        color: #9ca3af;
+        margin-bottom: 28px;
+      }
+      p {
+        margin: 0 0 18px;
+      }
+      .pull {
+        margin: 28px 0;
+        padding: 18px 22px;
+        border-left: 4px solid #38bdf8;
+        background: #f1f5f9;
+        color: #0f172a;
+      }
+      .ad {
+        margin: 30px 0;
+        height: 110px;
+        border-radius: 12px;
+        background: repeating-linear-gradient(45deg, #fde68a, #fde68a 12px, #fcd34d 12px, #fcd34d 24px);
+        display: grid;
+        place-items: center;
+        font: 700 13px/1 system-ui, sans-serif;
+        color: #78350f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">🔥 Limited offer — 40% off today only! <a href="#" style="color: #fff">Claim</a></div>
+
+    <div class="layout">
+      <aside>
+        <nav>
+          <a href="#">Introduction</a>
+          <a href="#">The problem</a>
+          <a href="#">How it works</a>
+          <a href="#">Results</a>
+          <a href="#">Conclusion</a>
+        </nav>
+      </aside>
+
+      <article>
+        <h1>Reading on a screen is harder than it looks</h1>
+        <div class="meta">By A. Writer · 8 min read</div>
+
+        <p>
+          When text is surrounded by banners, sidebars, autoplaying video and a dozen other things competing for
+          attention, the eye has to work harder to stay on the line it is reading. For most people this is a minor
+          annoyance. For readers with ADHD or dyslexia it can be the difference between finishing a page and giving up.
+        </p>
+        <p>
+          The fix does not have to be clever. In special education, a simple reading ruler — a strip of card with a
+          slot cut out — has been used for decades. It does one thing: it hides everything except the line you are on.
+        </p>
+
+        <div class="ad">ADVERT</div>
+
+        <h2>The problem</h2>
+        <p>
+          Digital pages rarely offer that kind of focus. A typical article page loads with a sticky header, a
+          newsletter modal, a cookie banner, a chat widget and a floating video player. Each one is designed to pull
+          the eye away at the exact moment the reader is trying to concentrate.
+        </p>
+        <p>
+          The result is a reading experience that is measurably worse than paper: more regressions, more re-reading,
+          and a lower chance of finishing. The problem is not that people cannot read. It is that the page keeps
+          interrupting.
+        </p>
+
+        <div class="pull">
+          “A reading ruler is not a feature. It is an accommodation — the digital equivalent of turning down the
+          volume in a noisy room.”
+        </div>
+
+        <p>
+          The interesting thing about this problem is how cheap it is to solve. A single overlay, one band of
+          transparency, and a shadow that dims everything outside it. No servers, no accounts, no data collection. The
+          entire mechanism fits in a few dozen lines of CSS.
+        </p>
+        <p>
+          And yet it is hard to find a tool that does exactly this, on any page, without asking for permission to read
+          and change all of your data on all websites, and without turning the reading experience into a subscription.
+        </p>
+
+        <h2>How it works</h2>
+        <p>
+          You drag a band to the height where your eyes naturally rest. Everything above and below is dimmed. When
+          you scroll, the band stays put and the text moves through it, like a physical ruler held against the page.
+        </p>
+        <p>
+          If the page is noisy, a second switch stops animations and lets you hide the elements that keep stealing
+          focus. Settings are remembered per website, because reading a news site and reading a dashboard are two
+          different jobs.
+        </p>
+
+        <h2>Results</h2>
+        <p>
+          The point is not to make reading faster. It is to make reading finishable. A quieter page, a single line of
+          attention, and a tool that gets out of the way — that is the whole product.
+        </p>
+
+        <div class="ad">ADVERT</div>
+
+        <p>
+          If that sounds like something you would use every day, you are probably right. The hard part is not building
+          it. The hard part is telling the people who need it that it exists.
+        </p>
+      </article>
+    </div>
+
+    <div class="cookie">
+      <strong>We value your privacy</strong>
+      <p style="margin: 6px 0 0">We and our 482 partners store cookies on your device.</p>
+      <button>Accept all</button>
+    </div>
+
+    <script src="../dist/content.js"></script>
+  </body>
+</html>

@@ -1,0 +1,469 @@
+:root {
+  color-scheme: dark;
+  --bg: #0b1020;
+  --bar: #0f172a;
+  --line: #1e293b;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #7dd3fc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #111827;
+  color: var(--text);
+  font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+}
+
+/* Floating control card, same visual language as the extension popup. */
+.panel {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 45;
+  width: 292px;
+  max-height: calc(100vh - 32px);
+  overflow: auto;
+  padding: 10px 12px 12px;
+  background: rgba(11, 16, 32, 0.97);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+.panelHead {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 12px rgba(125, 211, 252, 0.8);
+  flex: 0 0 auto;
+}
+
+.panelTitle {
+  flex: 1;
+  min-width: 0;
+}
+
+.panelName {
+  font-weight: 650;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+.panelSite {
+  color: var(--muted);
+  font-size: 11px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.iconBtn {
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  font: inherit;
+  color: var(--text);
+  background: #111827;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.iconBtn:hover {
+  border-color: #475569;
+}
+
+.panelBody {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 8px 0 2px;
+}
+
+.row.check {
+  margin: 10px 0 2px;
+  cursor: pointer;
+}
+
+.row.wrap {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 6px;
+}
+
+.label {
+  color: #cbd5e1;
+  font-size: 12px;
+}
+
+.value {
+  color: var(--accent);
+  font-size: 11.5px;
+  font-variant-numeric: tabular-nums;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.panel input[type="range"] {
+  width: 100%;
+  accent-color: var(--accent);
+  margin: 2px 0 0;
+}
+
+.panel input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  accent-color: #0ea5e9;
+  cursor: pointer;
+}
+
+.select {
+  max-width: 136px;
+  padding: 4px 6px;
+  font: inherit;
+  font-size: 12px;
+  color: var(--text);
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 7px;
+}
+
+.showPanel {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 45;
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+  color: var(--accent);
+  background: rgba(11, 16, 32, 0.97);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.ghost {
+  font: inherit;
+  color: var(--text);
+  background: #111827;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.ghost:hover {
+  border-color: #475569;
+}
+
+.ghost[aria-pressed="true"] {
+  border-color: #0ea5e9;
+  color: var(--accent);
+  background: #0b2a3d;
+}
+
+.doc {
+  padding: 24px 24px 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.page {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.page canvas {
+  display: block;
+}
+
+/* pdf.js text layer: keeps text selectable and gives the caret API something
+   to hit when placing the line with Alt + click. */
+.textLayer {
+  position: absolute;
+  text-align: initial;
+  inset: 0;
+  overflow: clip;
+  opacity: 1;
+  line-height: 1;
+  text-size-adjust: none;
+  forced-color-adjust: none;
+  transform-origin: 0 0;
+  caret-color: CanvasText;
+  z-index: 1;
+}
+
+.textLayer :is(span, br) {
+  color: transparent;
+  /* Guard against any inherited colour: the glyphs come from the canvas, and a
+     visible text layer would look like doubled text. */
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  transform-origin: 0% 0%;
+}
+
+.textLayer ::selection {
+  background: rgba(0, 0, 255, 0.25);
+}
+
+::highlight(fl-pdf-sentence) {
+  background-color: rgba(125, 211, 252, 0.35);
+}
+
+/* The PDF itself is canvas pixels and the text layer is transparent, so the
+   guide has to be translucent — a solid block would hide the glyphs. The
+   colours themselves are generated from the user's settings. */
+::highlight(fl-pdf-word-a) {
+  background-color: rgba(56, 189, 248, 0.32);
+}
+
+::highlight(fl-pdf-word-b) {
+  background-color: rgba(251, 191, 36, 0.32);
+}
+
+::highlight(fl-pdf-guide-sentence) {
+  background-color: rgba(125, 211, 252, 0.36);
+}
+
+.colourPair {
+  display: flex;
+  gap: 6px;
+}
+
+input[type="color"] {
+  width: 28px;
+  height: 26px;
+  padding: 0;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  background: #0f172a;
+  cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 2px;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 4px;
+}
+
+select.ghost {
+  padding: 5px 8px;
+  color: var(--text);
+  background: #111827;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  font: inherit;
+}
+.ghost.icon {
+  padding: 4px 9px;
+  line-height: 1.2;
+}
+
+.empty {
+  max-width: 520px;
+  margin: 18vh auto 0;
+  text-align: center;
+  color: var(--muted);
+}
+
+.empty h1 {
+  color: var(--text);
+  font-size: 20px;
+  margin: 0 0 8px;
+}
+
+.empty p {
+  margin: 0 0 16px;
+}
+
+.empty .ghost {
+  font-size: 13px;
+}
+
+.urlForm {
+  display: flex;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+.urlForm input {
+  flex: 1;
+  min-width: 0;
+  font: inherit;
+  color: var(--text);
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.urlForm input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.muted {
+  color: var(--muted);
+  word-break: break-word;
+}
+
+/* Reading line. The band is a transparent window between two dim panels, so
+   the PDF stays visible inside it and dimmed outside. */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.dim {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: rgba(3, 7, 18, 0.55);
+  will-change: transform;
+}
+
+.dim.top {
+  top: 0;
+  transform-origin: top center;
+}
+
+.dim.bottom {
+  bottom: 0;
+  transform-origin: bottom center;
+}
+
+.band {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 48px;
+  border-top: 1px solid rgba(125, 211, 252, 0.6);
+  border-bottom: 1px solid rgba(125, 211, 252, 0.22);
+  background: rgba(125, 211, 252, 0.06);
+  will-change: transform, height;
+}
+
+.handle {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.55);
+  color: var(--accent);
+  display: grid;
+  place-items: center;
+  font-size: 13px;
+  cursor: ns-resize;
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
+}
+
+.handle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.overlay.locked .handle {
+  opacity: 0.35;
+  cursor: default;
+}
+
+/* While reading aloud the line hops from sentence to sentence; a short
+   transition makes that feel like tracking rather than teleporting. */
+.overlay.following .band,
+.overlay.following .dim {
+  transition: transform 140ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay.following .band,
+  .overlay.following .dim {
+    transition: none;
+  }
+}
+
+.hud {
+  position: fixed;
+  left: 50%;
+  bottom: 22px;
+  transform: translateX(-50%);
+  z-index: 40;
+  background: rgba(15, 23, 42, 0.95);
+  color: #e2e8f0;
+  font-size: 12px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  pointer-events: none;
+  max-width: 80vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 720px) {
+  .panel {
+    left: 12px;
+    right: 12px;
+    width: auto;
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "extName": {
+    "message": "FocusLine — 読書ライン・ADHDフォーカスモード"
+  },
+  "extDescription": {
+    "message": "読みたい行だけを残して周囲を暗くする、ドラッグできる読書ライン。ADHD・ディスレクシアの方のために。ローカル動作、アカウント不要。"
+  },
+  "popupTitle": {
+    "message": "FocusLine"
+  },
+  "toggleTitle": {
+    "message": "読書ラインのオン／オフ"
+  },
+  "toggleAria": {
+    "message": "読書ラインのオン／オフ"
+  },
+  "lineHeight": {
+    "message": "ラインの高さ"
+  },
+  "dim": {
+    "message": "暗さ"
+  },
+  "followCursor": {
+    "message": "カーソルに追従"
+  },
+  "calmMode": {
+    "message": "カームモード"
+  },
+  "calmModeHint": {
+    "message": "— アニメーションを停止"
+  },
+  "hideElement": {
+    "message": "要素を隠す…"
+  },
+  "resetHidden": {
+    "message": "非表示をリセット"
+  },
+  "lineColour": {
+    "message": "ラインの色"
+  },
+  "autoRun": {
+    "message": "このサイトで自動的にオン"
+  },
+  "noActiveTab": {
+    "message": "アクティブなタブがありません。"
+  },
+  "unsupportedPage": {
+    "message": "このページでは拡張機能を使用できません。"
+  },
+  "unsupportedHint": {
+    "message": "通常の Web ページ（http / https）を開いて再試行してください。"
+  },
+  "reloadHint": {
+    "message": "ページを再読み込みして再試行してください。"
+  },
+  "hudDrag": {
+    "message": "ハンドルをドラッグ、または Alt + ↑ / ↓"
+  },
+  "hudFollow": {
+    "message": "読書ライン ON · カーソルに追従"
+  },
+  "hudPick": {
+    "message": "隠す要素をクリック · Esc でキャンセル"
+  },
+  "hudHidden": {
+    "message": "非表示にしました。FocusLine メニューから元に戻せます。"
+  },
+  "moveLine": {
+    "message": "読書ラインを移動"
+  },
+  "welcomeTitle": {
+    "message": "FocusLine へようこそ"
+  },
+  "welcomeH1": {
+    "message": "FocusLine をインストールしました"
+  },
+  "welcomeLead": {
+    "message": "読みたい行以外を暗くする、ドラッグできる読書ライン。ADHD・ディスレクシアの方のために。アカウント不要、追跡なし、データはブラウザの外に出ません。"
+  },
+  "step1Title": {
+    "message": "長いページを開く"
+  },
+  "step1Body": {
+    "message": "FocusLine アイコンをクリックしてスイッチをオンにすると、読んでいる行の周囲が暗くなります。"
+  },
+  "step2Title": {
+    "message": "目が休まる位置にラインを置く"
+  },
+  "step2Body": {
+    "message": "右のハンドルをドラッグするか、<kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> を押します。<kbd>Shift</kbd> を加えると高さが変わります。"
+  },
+  "step3Title": {
+    "message": "ページを静かにする"
+  },
+  "step3Body": {
+    "message": "カームモードはアニメーションを止めます。浮いているバナーやサイドバーもワンクリックで隠せます。"
+  },
+  "calloutTitle": {
+    "message": "設定はサイトごとに保存"
+  },
+  "calloutBody": {
+    "message": "各サイトがそれぞれのライン高さ、暗さ、非表示要素を覚えます。"
+  },
+  "shortcutLabel": {
+    "message": "どこでも切り替え"
+  },
+  "privacyTitle": {
+    "message": "プライバシー"
+  },
+  "privacyBody": {
+    "message": "FocusLine は設定をこの端末の <code>chrome.storage.local</code> に保存します。ページ内容、閲覧履歴、設定を外部に送信することはなく、ネットワーク通信も一切行いません。"
+  },
+  "footerPin": {
+    "message": "ツールバーにピン留めするとワンクリックで使えます。"
+  },
+  "footerHelp": {
+    "message": "お困りですか？"
+  },
+  "language": {
+    "message": "言語"
+  },
+  "languageAuto": {
+    "message": "自動（ブラウザ）"
+  },
+  "textPanel": {
+    "message": "テキスト"
+  },
+  "textSize": {
+    "message": "文字サイズ"
+  },
+  "textLineHeight": {
+    "message": "行の高さ"
+  },
+  "textSpacing": {
+    "message": "文字間隔"
+  },
+  "textTheme": {
+    "message": "テーマ"
+  },
+  "resetText": {
+    "message": "テキストをリセット"
+  },
+  "themeDefault": {
+    "message": "デフォルト"
+  },
+  "themePaper": {
+    "message": "紙"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "themeContrast": {
+    "message": "ハイコントラスト"
+  },
+  "colourSky": {
+    "message": "スカイブルー"
+  },
+  "colourAmber": {
+    "message": "アンバー"
+  },
+  "colourViolet": {
+    "message": "バイオレット"
+  },
+  "colourGreen": {
+    "message": "グリーン"
+  },
+  "colourRose": {
+    "message": "ローズ"
+  },
+  "readAloud": {
+    "message": "読み上げ"
+  },
+  "readPause": {
+    "message": "一時停止"
+  },
+  "readResume": {
+    "message": "再開"
+  },
+  "readStop": {
+    "message": "読み上げを停止"
+  },
+  "readSpeed": {
+    "message": "読み上げ速度"
+  },
+  "hudSpeaking": {
+    "message": "読み上げ中 · Esc で停止"
+  },
+  "hudPaused": {
+    "message": "読み上げを一時停止しました"
+  },
+  "readNoText": {
+    "message": "読み上げ可能なテキストがありません"
+  },
+  "readNoVoice": {
+    "message": "ローカル音声がありません"
+  },
+  "readUnsupported": {
+    "message": "このブラウザは読み上げに対応していません"
+  },
+  "presetReading": {
+    "message": "ディスレクシア向けプリセット"
+  },
+  "readHighlight": {
+    "message": "ハイライト色"
+  },
+  "colourOrange": {
+    "message": "オレンジ"
+  },
+  "readLanguage": {
+    "message": "読み上げ言語"
+  },
+  "readLangAuto": {
+    "message": "自動（ページ / 画面）"
+  },
+  "shortcutReset": {
+    "message": "リセット"
+  },
+  "placeHint": {
+    "message": "Alt + クリックでその行にラインを置けます"
+  },
+  "guideLabel": {
+    "message": "カラーガイド"
+  },
+  "guideOff": {
+    "message": "オフ"
+  },
+  "guideWords": {
+    "message": "単語"
+  },
+  "guideSentence": {
+    "message": "文"
+  },
+  "lockLine": {
+    "message": "位置を固定"
+  },
+  "hudLocked": {
+    "message": "ラインを固定しました"
+  },
+  "hudUnlocked": {
+    "message": "ラインの固定を解除しました"
+  },
+  "pdfTitle": {
+    "message": "PDF ファイルです"
+  },
+  "pdfHint": {
+    "message": "Chrome 内蔵の PDF ビューアは拡張機能から変更できません。FocusLine Reader で開くと読書ラインが使えます。"
+  },
+  "pdfOpen": {
+    "message": "FocusLine Reader で開く"
+  },
+  "pdfReader": {
+    "message": "リーダー"
+  },
+  "pdfOpenFile": {
+    "message": "ファイルを開く…"
+  },
+  "pdfEmptyTitle": {
+    "message": "PDF を開いて開始"
+  },
+  "pdfEmptyHint": {
+    "message": "PDF をこのページにドロップするか、「ファイルを開く…」を選んでください。"
+  },
+  "pdfErrorTitle": {
+    "message": "この PDF を開けませんでした"
+  },
+  "pdfRetry": {
+    "message": "再試行"
+  },
+  "pdfNeedPermission": {
+    "message": "PDF を読むにはこのサイトへのアクセス権が必要です。ポップアップから開いて権限を許可してください。"
+  },
+  "pdfClose": {
+    "message": "ファイルを閉じる"
+  },
+  "snapLines": {
+    "message": "テキスト行にスナップ"
+  },
+  "hudSnap": {
+    "message": "読書ラインON · テキスト行にスナップ"
+  },
+  "guideColours": {
+    "message": "ガイドの色"
+  },
+  "pinHint": {
+    "message": "Alt + クリックで固定 · Alt + 右クリックで解除"
+  },
+  "panelCollapse": {
+    "message": "コントロールを隠す"
+  },
+  "panelShow": {
+    "message": "コントロールを表示"
+  },
+  "shortcutsTitle": {
+    "message": "キーボードショートカット"
+  },
+  "scLock": {
+    "message": "ラインを固定 / 解除"
+  },
+  "scMove": {
+    "message": "ラインを上下に移動"
+  },
+  "scResize": {
+    "message": "ラインの高さを変更"
+  },
+  "scPlace": {
+    "message": "ラインをテキスト行に配置"
+  },
+  "scRelease": {
+    "message": "固定を解除"
+  },
+  "scRebind": {
+    "message": "オン/オフと固定のキーはブラウザの拡張機能ショートカットで変更できます。"
+  },
+  "scPlaceKey": {
+    "message": "Alt + クリック"
+  },
+  "scReleaseKey": {
+    "message": "Alt + 右クリック"
+  },
+  "openReader": {
+    "message": "PDFリーダーを開く"
+  },
+  "translationNote": {
+    "message": "翻訳の誤りを見つけたら、開発者までお知らせください。"
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "extName": {
+    "message": "FocusLine — линия чтения и режим концентрации при СДВГ"
+  },
+  "extDescription": {
+    "message": "Перетаскиваемая линия чтения, затемняющая всё вокруг. Для людей с СДВГ и дислексией. Только локально, без аккаунта."
+  },
+  "popupTitle": {
+    "message": "FocusLine"
+  },
+  "toggleTitle": {
+    "message": "Включить или выключить линию чтения"
+  },
+  "toggleAria": {
+    "message": "Включить или выключить линию чтения"
+  },
+  "lineHeight": {
+    "message": "Высота линии"
+  },
+  "dim": {
+    "message": "Затемнение"
+  },
+  "followCursor": {
+    "message": "Следовать за курсором"
+  },
+  "calmMode": {
+    "message": "Спокойный режим"
+  },
+  "calmModeHint": {
+    "message": "— остановить анимации"
+  },
+  "hideElement": {
+    "message": "Скрыть элемент…"
+  },
+  "resetHidden": {
+    "message": "Сбросить скрытые"
+  },
+  "lineColour": {
+    "message": "Цвет линии"
+  },
+  "autoRun": {
+    "message": "Включать автоматически на этом сайте"
+  },
+  "noActiveTab": {
+    "message": "Нет активной вкладки."
+  },
+  "unsupportedPage": {
+    "message": "На этой странице расширения недоступны."
+  },
+  "unsupportedHint": {
+    "message": "Откройте обычную веб-страницу (http / https) и повторите попытку."
+  },
+  "reloadHint": {
+    "message": "Перезагрузите страницу и повторите попытку."
+  },
+  "hudDrag": {
+    "message": "Перетащите ручку или нажмите Alt + ↑ / ↓"
+  },
+  "hudFollow": {
+    "message": "Линия чтения включена · следует за курсором"
+  },
+  "hudPick": {
+    "message": "Щёлкните элемент, чтобы скрыть · Esc — отмена"
+  },
+  "hudHidden": {
+    "message": "Скрыто. Верните через меню FocusLine."
+  },
+  "moveLine": {
+    "message": "Переместить линию чтения"
+  },
+  "welcomeTitle": {
+    "message": "Добро пожаловать в FocusLine"
+  },
+  "welcomeH1": {
+    "message": "FocusLine установлен"
+  },
+  "welcomeLead": {
+    "message": "Перетаскиваемая линия чтения, затемняющая всё остальное. Для людей с СДВГ и дислексией — без аккаунта, без слежки, данные не покидают браузер."
+  },
+  "step1Title": {
+    "message": "Откройте любую длинную страницу"
+  },
+  "step1Body": {
+    "message": "Нажмите на значок FocusLine, включите переключатель — и страница затемнится вокруг строки, которую вы читаете."
+  },
+  "step2Title": {
+    "message": "Поставьте линию туда, где отдыхают глаза"
+  },
+  "step2Body": {
+    "message": "Перетащите ручку справа или нажмите <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>. С <kbd>Shift</kbd> меняется высота."
+  },
+  "step3Title": {
+    "message": "Успокойте страницу"
+  },
+  "step3Body": {
+    "message": "Спокойный режим останавливает анимации. Плавающие баннеры и боковые панели можно скрыть одним нажатием."
+  },
+  "calloutTitle": {
+    "message": "Настройки запоминаются для сайта"
+  },
+  "calloutBody": {
+    "message": "Каждый сайт хранит свою высоту, затемнение и скрытые элементы."
+  },
+  "shortcutLabel": {
+    "message": "Переключение где угодно"
+  },
+  "privacyTitle": {
+    "message": "Конфиденциальность"
+  },
+  "privacyBody": {
+    "message": "FocusLine хранит настройки в <code>chrome.storage.local</code> на этом устройстве. Он не отправляет содержимое страниц, историю или настройки и вообще не делает сетевых запросов."
+  },
+  "footerPin": {
+    "message": "Закрепите FocusLine на панели инструментов для доступа в один клик."
+  },
+  "footerHelp": {
+    "message": "Нужна помощь?"
+  },
+  "language": {
+    "message": "Язык"
+  },
+  "languageAuto": {
+    "message": "Авто (браузер)"
+  },
+  "textPanel": {
+    "message": "Текст"
+  },
+  "textSize": {
+    "message": "Размер текста"
+  },
+  "textLineHeight": {
+    "message": "Межстрочный интервал"
+  },
+  "textSpacing": {
+    "message": "Межбуквенное расстояние"
+  },
+  "textTheme": {
+    "message": "Тема"
+  },
+  "resetText": {
+    "message": "Сбросить текст"
+  },
+  "themeDefault": {
+    "message": "По умолчанию"
+  },
+  "themePaper": {
+    "message": "Бумага"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "themeContrast": {
+    "message": "Высокий контраст"
+  },
+  "colourSky": {
+    "message": "Небесно-голубой"
+  },
+  "colourAmber": {
+    "message": "Янтарный"
+  },
+  "colourViolet": {
+    "message": "Фиолетовый"
+  },
+  "colourGreen": {
+    "message": "Зелёный"
+  },
+  "colourRose": {
+    "message": "Розовый"
+  },
+  "readAloud": {
+    "message": "Читать вслух"
+  },
+  "readPause": {
+    "message": "Пауза"
+  },
+  "readResume": {
+    "message": "Продолжить"
+  },
+  "readStop": {
+    "message": "Остановить чтение"
+  },
+  "readSpeed": {
+    "message": "Скорость чтения"
+  },
+  "hudSpeaking": {
+    "message": "Чтение · Esc — остановить"
+  },
+  "hudPaused": {
+    "message": "Чтение приостановлено"
+  },
+  "readNoText": {
+    "message": "Не найден текст для чтения"
+  },
+  "readNoVoice": {
+    "message": "Нет локального голоса"
+  },
+  "readUnsupported": {
+    "message": "Этот браузер не умеет читать вслух"
+  },
+  "presetReading": {
+    "message": "Пресет для дислексии"
+  },
+  "readHighlight": {
+    "message": "Цвет выделения"
+  },
+  "colourOrange": {
+    "message": "Оранжевый"
+  },
+  "readLanguage": {
+    "message": "Язык чтения"
+  },
+  "readLangAuto": {
+    "message": "Авто (страница / интерфейс)"
+  },
+  "shortcutReset": {
+    "message": "Сбросить"
+  },
+  "placeHint": {
+    "message": "Alt + клик, чтобы поставить линию"
+  },
+  "guideLabel": {
+    "message": "Цветовая подсказка"
+  },
+  "guideOff": {
+    "message": "Выкл."
+  },
+  "guideWords": {
+    "message": "Слова"
+  },
+  "guideSentence": {
+    "message": "Предложение"
+  },
+  "lockLine": {
+    "message": "Зафиксировать позицию"
+  },
+  "hudLocked": {
+    "message": "Линия зафиксирована"
+  },
+  "hudUnlocked": {
+    "message": "Линия освобождена"
+  },
+  "pdfTitle": {
+    "message": "Это PDF"
+  },
+  "pdfHint": {
+    "message": "Встроенный просмотрщик PDF в Chrome нельзя изменить расширением. Откройте файл в FocusLine Reader, чтобы появилась линия чтения."
+  },
+  "pdfOpen": {
+    "message": "Открыть в FocusLine Reader"
+  },
+  "pdfReader": {
+    "message": "Читалка"
+  },
+  "pdfOpenFile": {
+    "message": "Открыть файл…"
+  },
+  "pdfEmptyTitle": {
+    "message": "Откройте PDF, чтобы начать"
+  },
+  "pdfEmptyHint": {
+    "message": "Перетащите PDF на эту страницу или нажмите «Открыть файл…»."
+  },
+  "pdfErrorTitle": {
+    "message": "Не удалось открыть этот PDF"
+  },
+  "pdfRetry": {
+    "message": "Повторить"
+  },
+  "pdfNeedPermission": {
+    "message": "FocusLine нужен доступ к этому сайту, чтобы прочитать PDF. Откройте его из попапа, чтобы расширение запросило разрешение."
+  },
+  "pdfClose": {
+    "message": "Закрыть файл"
+  },
+  "snapLines": {
+    "message": "Привязка к строкам текста"
+  },
+  "hudSnap": {
+    "message": "Линия включена · привязка к строкам"
+  },
+  "guideColours": {
+    "message": "Цвета подсказки"
+  },
+  "pinHint": {
+    "message": "Alt + клик закрепляет линию · Alt + правый клик снимает"
+  },
+  "panelCollapse": {
+    "message": "Скрыть панель"
+  },
+  "panelShow": {
+    "message": "Показать панель"
+  },
+  "shortcutsTitle": {
+    "message": "Горячие клавиши"
+  },
+  "scLock": {
+    "message": "Закрепить или освободить линию"
+  },
+  "scMove": {
+    "message": "Двигать линию"
+  },
+  "scResize": {
+    "message": "Изменить высоту линии"
+  },
+  "scPlace": {
+    "message": "Поставить линию на строку текста"
+  },
+  "scRelease": {
+    "message": "Снять закрепление"
+  },
+  "scRebind": {
+    "message": "Изменить клавиши включения и закрепления можно на странице горячих клавиш расширений."
+  },
+  "scPlaceKey": {
+    "message": "Alt + клик"
+  },
+  "scReleaseKey": {
+    "message": "Alt + правый клик"
+  },
+  "openReader": {
+    "message": "Открыть PDF-читалку"
+  },
+  "translationNote": {
+    "message": "Заметили ошибку перевода? Сообщите разработчику."
+  }
+}

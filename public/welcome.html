@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome to FocusLine</title>
+    <link rel="stylesheet" href="welcome.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="hero">
+        <img src="icons/128.png" alt="" width="72" height="72" />
+        <h1 data-i18n="welcomeH1">FocusLine is installed</h1>
+        <p class="lead" data-i18n="welcomeLead">
+          A draggable reading line that dims everything else. Built for ADHD and dyslexia readers — no account, no
+          tracking, nothing leaves your browser.
+        </p>
+      </header>
+
+      <section class="steps">
+        <article>
+          <span class="num">1</span>
+          <h2 data-i18n="step1Title">Open any long page</h2>
+          <p data-i18n="step1Body">
+            Click the FocusLine icon, flip the switch, and the page dims around the line you are reading.
+          </p>
+        </article>
+        <article>
+          <span class="num">2</span>
+          <h2 data-i18n="step2Title">Put the line where your eyes rest</h2>
+          <p data-i18n-html="step2Body">
+            Drag the handle on the right, or press <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>. Add
+            <kbd>Shift</kbd> to change the band height.
+          </p>
+        </article>
+        <article>
+          <span class="num">3</span>
+          <h2 data-i18n="step3Title">Make the page quiet</h2>
+          <p data-i18n="step3Body">
+            Calm mode stops animations. You can also hide floating banners and sidebars with one click.
+          </p>
+        </article>
+      </section>
+
+      <section class="callout">
+        <div>
+          <h2 data-i18n="calloutTitle">Your settings follow the site</h2>
+          <p data-i18n="calloutBody">Every website remembers its own line height, dim level, and hidden elements.</p>
+        </div>
+        <div class="shortcut">
+          <span data-i18n="shortcutLabel">Toggle anywhere</span>
+          <kbd>Alt</kbd><span>+</span><kbd>Shift</kbd><span>+</span><kbd>F</kbd>
+        </div>
+      </section>
+
+      <section class="privacy">
+        <h2 data-i18n="privacyTitle">Privacy</h2>
+        <p data-i18n-html="privacyBody">
+          FocusLine stores your settings in <code>chrome.storage.local</code> on this device. It never sends page
+          content, browsing history, or settings anywhere, and it makes no network requests at all.
+        </p>
+      </section>
+
+      <footer>
+        <p data-i18n="footerPin">Pin FocusLine to your toolbar for one-click access.</p>
+        <p>
+          <span data-i18n="footerHelp">Need help?</span>
+          <a href="mailto:lidachang78@gmail.com?subject=FocusLine%20support">lidachang78@gmail.com</a>
+        </p>
+        <p class="langNote">
+          Missing your language?
+          <a href="mailto:lidachang78@gmail.com?subject=FocusLine%20translation">Email me</a>
+          and I’ll add it as soon as possible.
+        </p>
+      </footer>
+    </main>
+
+    <script type="module" src="welcome.js"></script>
+  </body>
+</html>

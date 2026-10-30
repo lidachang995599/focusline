@@ -1,0 +1,326 @@
+{
+  "extName": {
+    "message": "FocusLine — Ligne de lecture et mode concentration TDAH"
+  },
+  "extDescription": {
+    "message": "Une ligne de lecture déplaçable qui assombrit le reste de la page. Conçue pour le TDAH et la dyslexie. 100 % local, sans compte."
+  },
+  "popupTitle": {
+    "message": "FocusLine"
+  },
+  "toggleTitle": {
+    "message": "Activer/désactiver la ligne de lecture"
+  },
+  "toggleAria": {
+    "message": "Activer/désactiver la ligne de lecture"
+  },
+  "lineHeight": {
+    "message": "Hauteur de la ligne"
+  },
+  "dim": {
+    "message": "Assombrissement"
+  },
+  "followCursor": {
+    "message": "Suivre le curseur"
+  },
+  "calmMode": {
+    "message": "Mode calme"
+  },
+  "calmModeHint": {
+    "message": "— arrêter les animations"
+  },
+  "hideElement": {
+    "message": "Masquer un élément…"
+  },
+  "resetHidden": {
+    "message": "Réinitialiser les masquages"
+  },
+  "lineColour": {
+    "message": "Couleur de la ligne"
+  },
+  "autoRun": {
+    "message": "Activer automatiquement sur ce site"
+  },
+  "noActiveTab": {
+    "message": "Aucun onglet actif."
+  },
+  "unsupportedPage": {
+    "message": "Cette page ne prend pas en charge les extensions."
+  },
+  "unsupportedHint": {
+    "message": "Ouvrez une page web normale (http / https) et réessayez."
+  },
+  "reloadHint": {
+    "message": "Rechargez la page et réessayez."
+  },
+  "hudDrag": {
+    "message": "Faites glisser la poignée ou appuyez sur Alt + ↑ / ↓"
+  },
+  "hudFollow": {
+    "message": "Ligne de lecture active · suit le curseur"
+  },
+  "hudPick": {
+    "message": "Cliquez sur l'élément à masquer · Échap pour annuler"
+  },
+  "hudHidden": {
+    "message": "Masqué. Annulez depuis le menu FocusLine."
+  },
+  "moveLine": {
+    "message": "Déplacer la ligne de lecture"
+  },
+  "welcomeTitle": {
+    "message": "Bienvenue dans FocusLine"
+  },
+  "welcomeH1": {
+    "message": "FocusLine est installé"
+  },
+  "welcomeLead": {
+    "message": "Une ligne de lecture déplaçable qui assombrit tout le reste. Conçue pour le TDAH et la dyslexie — sans compte, sans suivi, rien ne quitte votre navigateur."
+  },
+  "step1Title": {
+    "message": "Ouvrez une page longue"
+  },
+  "step1Body": {
+    "message": "Cliquez sur l'icône FocusLine, activez l'interrupteur et la page s'assombrit autour de la ligne que vous lisez."
+  },
+  "step2Title": {
+    "message": "Placez la ligne là où vos yeux se reposent"
+  },
+  "step2Body": {
+    "message": "Faites glisser la poignée à droite ou appuyez sur <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>. Ajoutez <kbd>Maj</kbd> pour changer la hauteur."
+  },
+  "step3Title": {
+    "message": "Calmez la page"
+  },
+  "step3Body": {
+    "message": "Le mode calme arrête les animations. Vous pouvez aussi masquer bannières flottantes et barres latérales en un clic."
+  },
+  "calloutTitle": {
+    "message": "Vos réglages suivent le site"
+  },
+  "calloutBody": {
+    "message": "Chaque site mémorise sa hauteur, son assombrissement et ses éléments masqués."
+  },
+  "shortcutLabel": {
+    "message": "Basculer partout"
+  },
+  "privacyTitle": {
+    "message": "Confidentialité"
+  },
+  "privacyBody": {
+    "message": "FocusLine enregistre vos réglages dans <code>chrome.storage.local</code> sur cet appareil. Elle n'envoie jamais le contenu des pages, l'historique ni les réglages, et n'effectue aucune requête réseau."
+  },
+  "footerPin": {
+    "message": "Épinglez FocusLine à la barre d'outils pour un accès en un clic."
+  },
+  "footerHelp": {
+    "message": "Besoin d'aide ?"
+  },
+  "language": {
+    "message": "Langue"
+  },
+  "languageAuto": {
+    "message": "Auto (navigateur)"
+  },
+  "textPanel": {
+    "message": "Texte"
+  },
+  "textSize": {
+    "message": "Taille du texte"
+  },
+  "textLineHeight": {
+    "message": "Hauteur de ligne"
+  },
+  "textSpacing": {
+    "message": "Espacement des lettres"
+  },
+  "textTheme": {
+    "message": "Thème"
+  },
+  "resetText": {
+    "message": "Réinitialiser le texte"
+  },
+  "themeDefault": {
+    "message": "Par défaut"
+  },
+  "themePaper": {
+    "message": "Papier"
+  },
+  "themeDark": {
+    "message": "Sombre"
+  },
+  "themeContrast": {
+    "message": "Contraste élevé"
+  },
+  "colourSky": {
+    "message": "Bleu ciel"
+  },
+  "colourAmber": {
+    "message": "Ambre"
+  },
+  "colourViolet": {
+    "message": "Violet"
+  },
+  "colourGreen": {
+    "message": "Vert"
+  },
+  "colourRose": {
+    "message": "Rose"
+  },
+  "readAloud": {
+    "message": "Lire à voix haute"
+  },
+  "readPause": {
+    "message": "Pause"
+  },
+  "readResume": {
+    "message": "Reprendre"
+  },
+  "readStop": {
+    "message": "Arrêter la lecture"
+  },
+  "readSpeed": {
+    "message": "Vitesse de lecture"
+  },
+  "hudSpeaking": {
+    "message": "Lecture en cours · Échap pour arrêter"
+  },
+  "hudPaused": {
+    "message": "Lecture en pause"
+  },
+  "readNoText": {
+    "message": "Aucun texte lisible trouvé"
+  },
+  "readNoVoice": {
+    "message": "Aucune voix locale disponible"
+  },
+  "readUnsupported": {
+    "message": "Ce navigateur ne peut pas lire à voix haute"
+  },
+  "presetReading": {
+    "message": "Préréglage dyslexie"
+  },
+  "readHighlight": {
+    "message": "Couleur de surlignage"
+  },
+  "colourOrange": {
+    "message": "Orange"
+  },
+  "readLanguage": {
+    "message": "Langue de lecture"
+  },
+  "readLangAuto": {
+    "message": "Auto (page / interface)"
+  },
+  "shortcutReset": {
+    "message": "Réinitialiser"
+  },
+  "placeHint": {
+    "message": "Alt + clic pour placer la ligne"
+  },
+  "guideLabel": {
+    "message": "Guide couleur"
+  },
+  "guideOff": {
+    "message": "Désactivé"
+  },
+  "guideWords": {
+    "message": "Mots"
+  },
+  "guideSentence": {
+    "message": "Phrase"
+  },
+  "lockLine": {
+    "message": "Verrouiller la position"
+  },
+  "hudLocked": {
+    "message": "Ligne verrouillée"
+  },
+  "hudUnlocked": {
+    "message": "Ligne libérée"
+  },
+  "pdfTitle": {
+    "message": "Ceci est un PDF"
+  },
+  "pdfHint": {
+    "message": "Le lecteur PDF intégré de Chrome ne peut pas être modifié par une extension. Ouvrez-le dans FocusLine Reader pour avoir la ligne de lecture."
+  },
+  "pdfOpen": {
+    "message": "Ouvrir dans FocusLine Reader"
+  },
+  "pdfReader": {
+    "message": "Lecteur"
+  },
+  "pdfOpenFile": {
+    "message": "Ouvrir un fichier…"
+  },
+  "pdfEmptyTitle": {
+    "message": "Ouvrez un PDF pour commencer"
+  },
+  "pdfEmptyHint": {
+    "message": "Déposez un PDF sur cette page ou utilisez « Ouvrir un fichier… »."
+  },
+  "pdfErrorTitle": {
+    "message": "Impossible d'ouvrir ce PDF"
+  },
+  "pdfRetry": {
+    "message": "Réessayer"
+  },
+  "pdfNeedPermission": {
+    "message": "FocusLine a besoin d'un accès à ce site pour lire le PDF. Ouvrez-le depuis le popup pour que l'extension puisse demander l'autorisation."
+  },
+  "pdfClose": {
+    "message": "Fermer le fichier"
+  },
+  "snapLines": {
+    "message": "Aligner sur les lignes de texte"
+  },
+  "hudSnap": {
+    "message": "Ligne active · alignée sur le texte"
+  },
+  "guideColours": {
+    "message": "Couleurs du guide"
+  },
+  "pinHint": {
+    "message": "Alt + clic fixe la ligne · Alt + clic droit la libère"
+  },
+  "panelCollapse": {
+    "message": "Masquer les contrôles"
+  },
+  "panelShow": {
+    "message": "Afficher les contrôles"
+  },
+  "shortcutsTitle": {
+    "message": "Raccourcis clavier"
+  },
+  "scLock": {
+    "message": "Verrouiller ou libérer la ligne"
+  },
+  "scMove": {
+    "message": "Déplacer la ligne"
+  },
+  "scResize": {
+    "message": "Agrandir ou réduire la hauteur de la ligne"
+  },
+  "scPlace": {
+    "message": "Placer la ligne sur une ligne de texte"
+  },
+  "scRelease": {
+    "message": "Libérer le verrou"
+  },
+  "scRebind": {
+    "message": "Modifiez les touches d'activation et de verrouillage dans la page des raccourcis d'extensions du navigateur."
+  },
+  "scPlaceKey": {
+    "message": "Alt + clic"
+  },
+  "scReleaseKey": {
+    "message": "Alt + clic droit"
+  },
+  "openReader": {
+    "message": "Ouvrir le lecteur PDF"
+  },
+  "translationNote": {
+    "message": "Une erreur de traduction ? Signalez-la au développeur."
+  }
+}

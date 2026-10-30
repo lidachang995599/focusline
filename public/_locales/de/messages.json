@@ -1,0 +1,326 @@
+{
+  "extName": {
+    "message": "FocusLine — Leselinie & Fokusmodus bei ADHS"
+  },
+  "extDescription": {
+    "message": "Eine verschiebbare Leselinie, die alles andere abdunkelt. Für Menschen mit ADHS und Legasthenie. Nur lokal, ohne Konto."
+  },
+  "popupTitle": {
+    "message": "FocusLine"
+  },
+  "toggleTitle": {
+    "message": "Leselinie ein- oder ausschalten"
+  },
+  "toggleAria": {
+    "message": "Leselinie ein- oder ausschalten"
+  },
+  "lineHeight": {
+    "message": "Linienhöhe"
+  },
+  "dim": {
+    "message": "Abdunkeln"
+  },
+  "followCursor": {
+    "message": "Curser folgen"
+  },
+  "calmMode": {
+    "message": "Ruhemodus"
+  },
+  "calmModeHint": {
+    "message": "— Animationen stoppen"
+  },
+  "hideElement": {
+    "message": "Element ausblenden…"
+  },
+  "resetHidden": {
+    "message": "Ausgeblendete zurücksetzen"
+  },
+  "lineColour": {
+    "message": "Linienfarbe"
+  },
+  "autoRun": {
+    "message": "Auf dieser Website automatisch starten"
+  },
+  "noActiveTab": {
+    "message": "Kein aktiver Tab."
+  },
+  "unsupportedPage": {
+    "message": "Auf dieser Seite sind Erweiterungen nicht verfügbar."
+  },
+  "unsupportedHint": {
+    "message": "Öffne eine normale Webseite (http / https) und versuche es erneut."
+  },
+  "reloadHint": {
+    "message": "Lade die Seite neu und versuche es erneut."
+  },
+  "hudDrag": {
+    "message": "Ziehe den Griff oder drücke Alt + ↑ / ↓"
+  },
+  "hudFollow": {
+    "message": "Leselinie an · folgt dem Cursor"
+  },
+  "hudPick": {
+    "message": "Klicke das Element zum Ausblenden · Esc zum Abbrechen"
+  },
+  "hudHidden": {
+    "message": "Ausgeblendet. Im FocusLine-Menü rückgängig machen."
+  },
+  "moveLine": {
+    "message": "Leselinie verschieben"
+  },
+  "welcomeTitle": {
+    "message": "Willkommen bei FocusLine"
+  },
+  "welcomeH1": {
+    "message": "FocusLine ist installiert"
+  },
+  "welcomeLead": {
+    "message": "Eine verschiebbare Leselinie, die alles andere abdunkelt. Für Menschen mit ADHS und Legasthenie — ohne Konto, ohne Tracking, nichts verlässt deinen Browser."
+  },
+  "step1Title": {
+    "message": "Öffne eine lange Seite"
+  },
+  "step1Body": {
+    "message": "Klicke auf das FocusLine-Symbol, schalte den Regler ein, und die Seite wird um die Zeile herum abgedunkelt, die du liest."
+  },
+  "step2Title": {
+    "message": "Setze die Linie dorthin, wo deine Augen ruhen"
+  },
+  "step2Body": {
+    "message": "Ziehe den Griff rechts oder drücke <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>. Mit <kbd>Shift</kbd> änderst du die Höhe."
+  },
+  "step3Title": {
+    "message": "Mach die Seite ruhig"
+  },
+  "step3Body": {
+    "message": "Der Ruhemodus stoppt Animationen. Du kannst auch schwebende Banner und Seitenleisten per Klick ausblenden."
+  },
+  "calloutTitle": {
+    "message": "Einstellungen bleiben pro Website"
+  },
+  "calloutBody": {
+    "message": "Jede Website merkt sich ihre eigene Linienhöhe, Abdunkelung und ausgeblendeten Elemente."
+  },
+  "shortcutLabel": {
+    "message": "Überall umschalten"
+  },
+  "privacyTitle": {
+    "message": "Datenschutz"
+  },
+  "privacyBody": {
+    "message": "FocusLine speichert deine Einstellungen in <code>chrome.storage.local</code> auf diesem Gerät. Seiteninhalte, Verlauf und Einstellungen werden nirgendwohin gesendet, und es gibt keine Netzwerkanfragen."
+  },
+  "footerPin": {
+    "message": "Hefte FocusLine an die Symbolleiste für Zugriff mit einem Klick."
+  },
+  "footerHelp": {
+    "message": "Brauchst du Hilfe?"
+  },
+  "language": {
+    "message": "Sprache"
+  },
+  "languageAuto": {
+    "message": "Automatisch (Browser)"
+  },
+  "textPanel": {
+    "message": "Text"
+  },
+  "textSize": {
+    "message": "Textgröße"
+  },
+  "textLineHeight": {
+    "message": "Zeilenhöhe"
+  },
+  "textSpacing": {
+    "message": "Buchstabenabstand"
+  },
+  "textTheme": {
+    "message": "Design"
+  },
+  "resetText": {
+    "message": "Text zurücksetzen"
+  },
+  "themeDefault": {
+    "message": "Standard"
+  },
+  "themePaper": {
+    "message": "Papier"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "themeContrast": {
+    "message": "Hoher Kontrast"
+  },
+  "colourSky": {
+    "message": "Himmelblau"
+  },
+  "colourAmber": {
+    "message": "Bernstein"
+  },
+  "colourViolet": {
+    "message": "Violett"
+  },
+  "colourGreen": {
+    "message": "Grün"
+  },
+  "colourRose": {
+    "message": "Rosé"
+  },
+  "readAloud": {
+    "message": "Vorlesen"
+  },
+  "readPause": {
+    "message": "Pause"
+  },
+  "readResume": {
+    "message": "Fortsetzen"
+  },
+  "readStop": {
+    "message": "Vorlesen stoppen"
+  },
+  "readSpeed": {
+    "message": "Vorlesegeschwindigkeit"
+  },
+  "hudSpeaking": {
+    "message": "Liest vor · Esc zum Stoppen"
+  },
+  "hudPaused": {
+    "message": "Vorlesen pausiert"
+  },
+  "readNoText": {
+    "message": "Kein lesbarer Text gefunden"
+  },
+  "readNoVoice": {
+    "message": "Keine lokale Stimme verfügbar"
+  },
+  "readUnsupported": {
+    "message": "Dieser Browser kann nicht vorlesen"
+  },
+  "presetReading": {
+    "message": "Legasthenie-Preset"
+  },
+  "readHighlight": {
+    "message": "Markierungsfarbe"
+  },
+  "colourOrange": {
+    "message": "Orange"
+  },
+  "readLanguage": {
+    "message": "Vorlesesprache"
+  },
+  "readLangAuto": {
+    "message": "Automatisch (Seite / Oberfläche)"
+  },
+  "shortcutReset": {
+    "message": "Zurücksetzen"
+  },
+  "placeHint": {
+    "message": "Alt + Klick, um die Linie zu setzen"
+  },
+  "guideLabel": {
+    "message": "Farbführung"
+  },
+  "guideOff": {
+    "message": "Aus"
+  },
+  "guideWords": {
+    "message": "Wörter"
+  },
+  "guideSentence": {
+    "message": "Satz"
+  },
+  "lockLine": {
+    "message": "Position fixieren"
+  },
+  "hudLocked": {
+    "message": "Linie fixiert"
+  },
+  "hudUnlocked": {
+    "message": "Linie freigegeben"
+  },
+  "pdfTitle": {
+    "message": "Das ist ein PDF"
+  },
+  "pdfHint": {
+    "message": "Chromes eingebauter PDF-Viewer lässt sich von Erweiterungen nicht verändern. Öffne die Datei im FocusLine Reader, um die Leselinie zu nutzen."
+  },
+  "pdfOpen": {
+    "message": "Im FocusLine Reader öffnen"
+  },
+  "pdfReader": {
+    "message": "Reader"
+  },
+  "pdfOpenFile": {
+    "message": "Datei öffnen…"
+  },
+  "pdfEmptyTitle": {
+    "message": "PDF öffnen, um zu starten"
+  },
+  "pdfEmptyHint": {
+    "message": "Ziehe ein PDF auf diese Seite oder nutze „Datei öffnen…“."
+  },
+  "pdfErrorTitle": {
+    "message": "Dieses PDF konnte nicht geöffnet werden"
+  },
+  "pdfRetry": {
+    "message": "Erneut versuchen"
+  },
+  "pdfNeedPermission": {
+    "message": "FocusLine braucht Zugriff auf diese Website, um das PDF zu lesen. Öffne es über das Popup, damit die Erweiterung fragen kann."
+  },
+  "pdfClose": {
+    "message": "Datei schließen"
+  },
+  "snapLines": {
+    "message": "An Textzeilen einrasten"
+  },
+  "hudSnap": {
+    "message": "Linie an · rastet an Textzeilen ein"
+  },
+  "guideColours": {
+    "message": "Führungsfarben"
+  },
+  "pinHint": {
+    "message": "Alt + Klick fixiert die Linie · Alt + Rechtsklick löst sie"
+  },
+  "panelCollapse": {
+    "message": "Steuerung ausblenden"
+  },
+  "panelShow": {
+    "message": "Steuerung einblenden"
+  },
+  "shortcutsTitle": {
+    "message": "Tastenkürzel"
+  },
+  "scLock": {
+    "message": "Linie fixieren oder lösen"
+  },
+  "scMove": {
+    "message": "Linie verschieben"
+  },
+  "scResize": {
+    "message": "Linie höher oder niedriger machen"
+  },
+  "scPlace": {
+    "message": "Linie auf eine Textzeile setzen"
+  },
+  "scRelease": {
+    "message": "Fixierung lösen"
+  },
+  "scRebind": {
+    "message": "Die Tasten für Ein/Aus und Fixieren lassen sich auf der Tastenkürzel-Seite des Browsers ändern."
+  },
+  "scPlaceKey": {
+    "message": "Alt + Klick"
+  },
+  "scReleaseKey": {
+    "message": "Alt + Rechtsklick"
+  },
+  "openReader": {
+    "message": "PDF-Reader öffnen"
+  },
+  "translationNote": {
+    "message": "Übersetzungsfehler entdeckt? Melde es dem Entwickler."
+  }
+}

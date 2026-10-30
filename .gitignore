@@ -1,0 +1,9 @@
+node_modules/
+dist/
+release/
+.npm-cache/
+test/shot*.png
+docs/store/raw/
+.edge-profile*/
+.chrome-shot/
+*.zip

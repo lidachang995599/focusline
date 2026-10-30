@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FocusLine</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">
+        <img src="icons/32.png" alt="" width="26" height="26" />
+        <div class="brandText">
+          <div class="name">FocusLine</div>
+          <div class="site" id="site">—</div>
+        </div>
+      </div>
+      <div class="topActions">
+        <select
+          id="lang"
+          class="langSelect"
+          aria-label="Language"
+          data-i18n-aria-label="language"
+        ></select>
+        <button
+          id="toggle"
+          class="switch"
+          role="switch"
+          aria-checked="false"
+          title="Toggle the reading line"
+          aria-label="Toggle the reading line"
+          data-i18n-title="toggleTitle"
+          data-i18n-aria-label="toggleAria"
+        >
+          <span class="knob"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="unsupported" class="notice" hidden>
+        <p id="unsupportedText" data-i18n="unsupportedPage">This page cannot be used with extensions.</p>
+        <p class="muted" data-i18n="unsupportedHint">Open a normal website (http / https) and try again.</p>
+      </section>
+
+      <section id="pdfPanel" class="notice" hidden>
+        <p><strong data-i18n="pdfTitle">This is a PDF</strong></p>
+        <p class="muted" data-i18n="pdfHint">
+          Chrome's built-in viewer cannot be modified by extensions. Open the file in FocusLine Reader to get the
+          reading line.
+        </p>
+        <button id="openPdf" class="ghost" type="button" data-i18n="pdfOpen">Open in FocusLine Reader</button>
+      </section>
+
+      <section id="controls" hidden>
+        <button id="readerLink" class="ghost readerEntry" type="button">
+          <span data-i18n="openReader">Open PDF Reader</span>
+        </button>
+
+        <div class="row">
+          <span class="label" data-i18n="lineHeight">Line height</span>
+          <span class="value" id="heightVal" dir="ltr">48 px</span>
+        </div>
+        <input
+          id="height"
+          type="range"
+          min="20"
+          max="180"
+          step="2"
+          value="48"
+          aria-label="Line height"
+          data-i18n-aria-label="lineHeight"
+        />
+
+        <div class="row">
+          <span class="label" data-i18n="dim">Dim</span>
+          <span class="value" id="dimVal" dir="ltr">55%</span>
+        </div>
+        <input
+          id="dim"
+          type="range"
+          min="10"
+          max="85"
+          step="1"
+          value="55"
+          aria-label="Dim"
+          data-i18n-aria-label="dim"
+        />
+
+        <label class="row check">
+          <span class="label" data-i18n="followCursor">Follow cursor</span>
+          <input id="follow" type="checkbox" />
+        </label>
+
+        <label class="row check">
+          <span class="label" data-i18n="snapLines">Snap to text lines</span>
+          <input id="snap" type="checkbox" />
+        </label>
+
+        <label class="row check">
+          <span
+            class="label"
+            data-i18n="lockLine"
+            data-i18n-title="pinHint"
+            title="Alt + click pins the line · Alt + right-click releases it"
+          >Lock position</span>
+          <input id="lock" type="checkbox" />
+        </label>
+
+        <label class="row check">
+          <span class="label">
+            <span data-i18n="calmMode">Calm mode</span>
+            <span class="muted" data-i18n="calmModeHint">— stop animations</span>
+          </span>
+          <input id="calm" type="checkbox" />
+        </label>
+
+        <div class="row wrap">
+          <button id="pick" class="ghost"><span data-i18n="hideElement">Hide an element…</span></button>
+          <button id="clearHidden" class="ghost subtle" hidden>
+            <span data-i18n="resetHidden">Reset hidden</span> (<span id="hiddenCount">0</span>)
+          </button>
+        </div>
+
+        <div class="row wrap">
+          <button id="speak" class="ghost">
+            <span id="speakLabel" data-i18n="readAloud">Read aloud</span>
+          </button>
+          <button
+            id="speakStop"
+            class="ghost subtle"
+            hidden
+            title="Stop reading"
+            data-i18n-title="readStop"
+            data-i18n-aria-label="readStop"
+          >
+            ■
+          </button>
+        </div>
+        <div class="row">
+          <span class="label" data-i18n="readHighlight">Highlight colour</span>
+          <input
+            id="ttsCustom"
+            type="color"
+            value="#fbbf24"
+            aria-label="Highlight colour"
+            data-i18n-aria-label="readHighlight"
+          />
+        </div>
+        <div class="swatches" id="ttsSwatches"></div>
+        <div class="row">
+          <span class="label" data-i18n="readSpeed">Reading speed</span>
+          <span class="value" id="rateVal" dir="ltr">1.0×</span>
+        </div>
+        <input
+          id="rate"
+          type="range"
+          min="50"
+          max="200"
+          step="10"
+          value="100"
+          aria-label="Reading speed"
+          data-i18n-aria-label="readSpeed"
+        />
+
+        <div class="row">
+          <span class="label" data-i18n="readLanguage">Reading language</span>
+          <select
+            id="ttsLang"
+            class="langSelect"
+            aria-label="Reading language"
+            data-i18n-aria-label="readLanguage"
+          ></select>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="row">
+          <span class="label" data-i18n="lineColour">Line colour</span>
+        </div>
+        <div class="swatches" id="lineSwatches"></div>
+
+        <div class="row">
+          <span class="label" data-i18n="guideLabel">Colour guide</span>
+          <select
+            id="guide"
+            class="langSelect"
+            aria-label="Colour guide"
+            data-i18n-aria-label="guideLabel"
+          >
+            <option value="off" data-i18n="guideOff">Off</option>
+            <option value="words" data-i18n="guideWords">Words</option>
+            <option value="sentence" data-i18n="guideSentence">Sentence</option>
+          </select>
+        </div>
+
+        <div class="row" id="guideColors">
+          <span class="label" data-i18n="guideColours">Guide colours</span>
+          <span class="colourPair">
+            <input id="guideA" type="color" value="#7dd3fc" aria-label="Guide colour 1" />
+            <input id="guideB" type="color" value="#fcd34d" aria-label="Guide colour 2" />
+          </span>
+        </div>
+
+        <div class="row">
+          <span class="label" data-i18n="moveLine">Move the reading line</span>
+        </div>
+        <div id="shortcutRows"></div>
+        <p class="muted" data-i18n="placeHint">Alt + click anywhere to place the line</p>
+
+        <label class="row check">
+          <span class="label" data-i18n="autoRun">Run automatically on this site</span>
+          <input id="auto" type="checkbox" />
+        </label>
+
+        <div class="divider"></div>
+
+        <div class="row">
+          <span class="label" data-i18n="textPanel">Text</span>
+          <button
+            id="textReset"
+            class="ghost subtle iconBtn"
+            data-i18n-title="resetText"
+            title="Reset text"
+          >
+            ↺
+          </button>
+        </div>
+
+        <div class="row wrap">
+          <button id="textPreset" class="ghost">
+            <span data-i18n="presetReading">Dyslexia-friendly preset</span>
+          </button>
+        </div>
+
+        <div class="row">
+          <span class="glyph" data-i18n-title="textSize" title="Text size">A</span>
+          <span class="value" id="zoomVal" dir="ltr">100%</span>
+        </div>
+        <input
+          id="zoom"
+          type="range"
+          min="85"
+          max="150"
+          step="5"
+          value="100"
+          aria-label="Text size"
+          data-i18n-aria-label="textSize"
+        />
+
+        <div class="row">
+          <span class="glyph" data-i18n-title="textLineHeight" title="Line height">↕</span>
+          <span class="value" id="lineVal" dir="ltr">—</span>
+        </div>
+        <input
+          id="lineHeight"
+          type="range"
+          min="0"
+          max="10"
+          step="1"
+          value="0"
+          aria-label="Line height"
+          data-i18n-aria-label="textLineHeight"
+        />
+
+        <div class="row">
+          <span class="glyph" data-i18n-title="textSpacing" title="Letter spacing">↔</span>
+          <span class="value" id="spacingVal" dir="ltr">0</span>
+        </div>
+        <input
+          id="spacing"
+          type="range"
+          min="0"
+          max="8"
+          step="1"
+          value="0"
+          aria-label="Letter spacing"
+          data-i18n-aria-label="textSpacing"
+        />
+
+        <div class="row">
+          <span class="glyph" data-i18n-title="textTheme" title="Theme">◐</span>
+          <div class="themeDots" id="textTheme">
+            <button
+              class="themeDot"
+              data-theme="default"
+              title="Default"
+              data-i18n-title="themeDefault"
+              data-i18n-aria-label="themeDefault"
+            ></button>
+            <button
+              class="themeDot"
+              data-theme="paper"
+              title="Paper"
+              data-i18n-title="themePaper"
+              data-i18n-aria-label="themePaper"
+            ></button>
+            <button
+              class="themeDot"
+              data-theme="dark"
+              title="Dark"
+              data-i18n-title="themeDark"
+              data-i18n-aria-label="themeDark"
+            ></button>
+            <button
+              class="themeDot"
+              data-theme="contrast"
+              title="Contrast"
+              data-i18n-title="themeContrast"
+              data-i18n-aria-label="themeContrast"
+            ></button>
+          </div>
+        </div>
+
+        <p class="translateNote">
+          <span data-i18n="translationNote">Spotted a translation mistake? Let the developer know.</span>
+        </p>
+
+      </section>
+
+      <details class="shortcuts" id="shortcuts">
+        <summary data-i18n="shortcutsTitle">Keyboard shortcuts</summary>
+        <ul>
+          <li>
+            <kbd>Alt + Shift + F</kbd>
+            <span data-i18n="toggleTitle">Toggle the reading line</span>
+          </li>
+          <li>
+            <kbd>Alt + Shift + L</kbd>
+            <span data-i18n="scLock">Lock or release the line</span>
+          </li>
+          <li>
+            <kbd id="scMoveKeys">Alt + ↑ / ↓</kbd>
+            <span data-i18n="scMove">Move the line</span>
+          </li>
+          <li>
+            <kbd>Alt + Shift + ↑ / ↓</kbd>
+            <span data-i18n="scResize">Make the line taller or shorter</span>
+          </li>
+          <li>
+            <kbd data-i18n="scPlaceKey">Alt + click</kbd>
+            <span data-i18n="scPlace">Place the line on a line of text</span>
+          </li>
+          <li>
+            <kbd data-i18n="scReleaseKey">Alt + right-click</kbd>
+            <span data-i18n="scRelease">Release the lock</span>
+          </li>
+          <li>
+            <kbd>Esc</kbd>
+            <span data-i18n="readStop">Stop reading</span>
+          </li>
+        </ul>
+        <p class="shortcutHint" data-i18n="scRebind">
+          Change the toggle and lock keys in your browser's extension shortcuts page.
+        </p>
+      </details>
+    </main>
+
+    <div id="langNotice" class="langNotice" hidden>
+      Your language isn’t available yet. Email
+      <a href="mailto:lidachang78@gmail.com?subject=FocusLine%20translation">lidachang78@gmail.com</a>
+      and I’ll add it as soon as I can.
+    </div>
+
+    <footer class="foot">
+      <span>Alt + Shift + F</span>
+      <span id="version" class="version">v0.2.1</span>
+    </footer>
+
+    <script type="module" src="popup/popup.js"></script>
+  </body>
+</html>
+

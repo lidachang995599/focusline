@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FocusLine Reader</title>
+    <link rel="stylesheet" href="reader.css" />
+  </head>
+  <body>
+    <aside id="panel" class="panel">
+      <header class="panelHead">
+        <span class="dot" aria-hidden="true"></span>
+        <div class="panelTitle">
+          <div class="panelName">FocusLine</div>
+          <div id="title" class="panelSite">Reader</div>
+        </div>
+        <button
+          id="collapse"
+          class="iconBtn"
+          type="button"
+          data-i18n-aria-label="panelCollapse"
+          aria-label="Hide controls"
+        >
+          –
+        </button>
+      </header>
+
+      <div class="panelBody">
+        <div class="row">
+          <span class="label" data-i18n="lineHeight">Height</span>
+          <span id="heightVal" class="value" dir="ltr">48 px</span>
+        </div>
+        <input id="height" type="range" min="20" max="180" step="2" value="48" />
+
+        <div class="row">
+          <span class="label" data-i18n="dim">Dim</span>
+          <span id="dimVal" class="value" dir="ltr">55%</span>
+        </div>
+        <input id="dim" type="range" min="0" max="85" step="1" value="55" />
+
+        <div class="row">
+          <span class="label" data-i18n="guideLabel">Colour guide</span>
+          <select
+            id="guide"
+            class="select"
+            aria-label="Colour guide"
+            data-i18n-aria-label="guideLabel"
+          >
+            <option value="off" data-i18n="guideOff">Off</option>
+            <option value="words" data-i18n="guideWords">Words</option>
+            <option value="sentence" data-i18n="guideSentence">Sentence</option>
+          </select>
+        </div>
+
+        <div class="row" id="guideColors">
+          <span class="label" data-i18n="guideColours">Guide colours</span>
+          <span class="colourPair">
+            <input id="guideA" type="color" value="#7dd3fc" aria-label="Guide colour 1" />
+            <input id="guideB" type="color" value="#fcd34d" aria-label="Guide colour 2" />
+          </span>
+        </div>
+
+        <div class="row">
+          <span class="label" data-i18n="readHighlight">Highlight colour</span>
+          <input
+            id="speechColor"
+            type="color"
+            value="#7dd3fc"
+            aria-label="Highlight colour"
+            data-i18n-aria-label="readHighlight"
+          />
+        </div>
+
+        <label class="row check">
+          <span class="label" data-i18n="snapLines">Snap to text lines</span>
+          <input id="snap" type="checkbox" />
+        </label>
+
+        <label class="row check">
+          <span
+            class="label"
+            data-i18n="lockLine"
+            data-i18n-title="pinHint"
+            title="Alt + click pins the line · Alt + right-click releases it"
+          >Lock position</span>
+          <input id="lock" type="checkbox" />
+        </label>
+
+        <div class="row wrap">
+          <button id="speak" class="ghost" type="button" aria-pressed="false">
+            <span data-i18n="readAloud">Read aloud</span>
+          </button>
+          <button
+            id="stop"
+            class="ghost"
+            type="button"
+            hidden
+            data-i18n-aria-label="readStop"
+            aria-label="Stop reading"
+          >
+            ■
+          </button>
+        </div>
+
+        <div class="row wrap">
+          <button id="open" class="ghost" type="button">
+            <span data-i18n="pdfOpenFile">Open file…</span>
+          </button>
+          <button
+            id="close"
+            class="ghost icon"
+            type="button"
+            hidden
+            data-i18n-aria-label="pdfClose"
+            aria-label="Close file"
+            title="Close file"
+          >
+            ✕
+          </button>
+        </div>
+
+        <input id="file" type="file" accept="application/pdf,.pdf" hidden />
+      </div>
+    </aside>
+
+    <button
+      id="showPanel"
+      class="showPanel"
+      type="button"
+      hidden
+      data-i18n-aria-label="panelShow"
+      aria-label="Show controls"
+    >
+      ▤
+    </button>
+
+    <main id="doc" class="doc" aria-live="polite"></main>
+
+    <section id="empty" class="empty">
+      <h1 data-i18n="pdfEmptyTitle">Open a PDF to start</h1>
+      <p data-i18n="pdfEmptyHint">Drop a PDF anywhere on this page, or use “Open file…”.</p>
+      <p class="muted" data-i18n="pinHint">Alt + click pins the line · Alt + right-click releases it</p>
+      <form id="urlForm" class="urlForm">
+        <input
+          id="url"
+          type="url"
+          inputmode="url"
+          spellcheck="false"
+          placeholder="https://arxiv.org/pdf/2401.00001"
+          aria-label="PDF link"
+        />
+        <button class="ghost" type="submit" aria-label="Open in FocusLine Reader">→</button>
+      </form>
+      <button id="pick" class="ghost" type="button" data-i18n="pdfOpenFile">Open file…</button>
+    </section>
+
+    <section id="error" class="empty" hidden>
+      <h1 data-i18n="pdfErrorTitle">This PDF could not be opened</h1>
+      <p id="errorText" class="muted"></p>
+      <button id="retry" class="ghost" type="button" data-i18n="pdfRetry">Try again</button>
+    </section>
+
+    <div id="overlay" class="overlay" aria-hidden="true">
+      <div class="dim top"></div>
+      <div class="dim bottom"></div>
+      <div class="band">
+        <div class="handle" role="slider" tabindex="0" aria-orientation="vertical">↕</div>
+      </div>
+    </div>
+
+    <div id="hud" class="hud" hidden></div>
+
+    <script type="module" src="reader/reader.js"></script>
+  </body>
+</html>

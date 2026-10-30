@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reading on a screen is harder than it looks</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #1f2937;
+        --muted: #6b7280;
+        --line: #e5e7eb;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #fff;
+        color: var(--ink);
+        font: 17px/1.78 Georgia, "Times New Roman", serif;
+      }
+      .banner {
+        background: #b45309;
+        color: #fff7ed;
+        font: 13px/1.4 -apple-system, "Segoe UI", sans-serif;
+        text-align: center;
+        padding: 9px 12px;
+      }
+      .banner a {
+        color: #fff;
+      }
+      .layout {
+        display: grid;
+        grid-template-columns: 190px minmax(0, 1fr) 260px;
+        gap: 40px;
+        max-width: 1180px;
+        margin: 48px auto;
+        padding: 0 24px;
+      }
+      nav {
+        font: 14px/2 -apple-system, "Segoe UI", sans-serif;
+        color: var(--muted);
+        border-left: 3px solid var(--line);
+        padding-left: 16px;
+        height: max-content;
+        position: sticky;
+        top: 32px;
+      }
+      nav a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+      }
+      nav a:hover {
+        color: #0f172a;
+      }
+      h1 {
+        font: 700 46px/1.15 Georgia, serif;
+        letter-spacing: -0.5px;
+        margin: 0 0 14px;
+      }
+      .byline {
+        font: 14px/1.4 -apple-system, "Segoe UI", sans-serif;
+        color: var(--muted);
+        margin-bottom: 30px;
+      }
+      h2 {
+        font: 700 26px/1.3 Georgia, serif;
+        margin: 44px 0 14px;
+      }
+      p {
+        margin: 0 0 20px;
+      }
+      .pull {
+        border-left: 4px solid #7dd3fc;
+        padding: 6px 0 6px 18px;
+        font-style: italic;
+        color: #374151;
+        margin: 28px 0;
+      }
+      .ad {
+        border: 1px dashed #d1d5db;
+        background: repeating-linear-gradient(
+          45deg,
+          #fef3c7,
+          #fef3c7 12px,
+          #fde68a 12px,
+          #fde68a 24px
+        );
+        color: #92400e;
+        font: 600 12px/1 -apple-system, "Segoe UI", sans-serif;
+        letter-spacing: 2px;
+        display: grid;
+        place-items: center;
+        height: 160px;
+        margin: 26px 0;
+      }
+      aside.card {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 16px;
+        font: 13px/1.5 -apple-system, "Segoe UI", sans-serif;
+        color: var(--muted);
+        margin-bottom: 18px;
+      }
+      aside.card h3 {
+        margin: 0 0 6px;
+        font-size: 13px;
+        color: #111827;
+      }
+      .tags {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin: 26px 0 0;
+        font: 12px/1 -apple-system, "Segoe UI", sans-serif;
+      }
+      .tags span {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 6px 10px;
+        color: var(--muted);
+      }
+      @media (max-width: 900px) {
+        .layout {
+          grid-template-columns: 1fr;
+        }
+        nav {
+          position: static;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">⚡ Limited offer — 40% off today only! <a href="#">Claim</a></div>
+
+    <div class="layout">
+      <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#problem">The problem</a>
+        <a href="#how">How it works</a>
+        <a href="#results">Results</a>
+        <a href="#conclusion">Conclusion</a>
+      </nav>
+
+      <article>
+        <h1>Reading on a screen is harder than it looks</h1>
+        <div class="byline">By A. Writer · 8 min read</div>
+
+        <p id="intro">
+          When text is surrounded by banners, sidebars, autoplaying video and a dozen other
+          things competing for attention, the eye has to work harder to stay on the line it is
+          reading. For most people this is a minor annoyance. For readers with ADHD or dyslexia
+          it can be the difference between finishing a page and giving up.
+        </p>
+
+        <p>
+          The fix does not have to be clever. In special education, a simple reading ruler — a
+          strip of card with a slot cut out — has been used for decades. It does one thing: it
+          hides everything except the line you are on.
+        </p>
+
+        <div class="ad">ADVERT</div>
+
+        <h2 id="problem">The problem</h2>
+        <p>
+          Digital pages rarely offer that kind of focus. A typical article page loads a header, a
+          newsletter modal, a cookie banner, a chat widget and a floating video player. Each one
+          is designed to pull the eye away at the exact moment the reader is trying to
+          concentrate.
+        </p>
+        <p>
+          Reading researchers call this visual crowding. The words are perfectly legible on their
+          own; the difficulty comes from everything else on the page. Remove the competition and
+          the same paragraph becomes noticeably easier to finish.
+        </p>
+
+        <p class="pull">
+          A reading line does not make the text bigger or brighter. It makes everything else
+          quieter.
+        </p>
+
+        <h2 id="how">How it works</h2>
+        <p>
+          The reading line is a single band, positioned where the eyes rest. Above and below it
+          the page is dimmed, so the next line is still visible but no longer competes for
+          attention. The band can be dragged, resized, or locked to the line of text under the
+          pointer.
+        </p>
+        <p>
+          Because the line is only an overlay, it works on almost any page: long-form articles,
+          documentation, dashboards, online textbooks, and even web apps built on a canvas. The
+          page itself is not modified, so links, forms and selection keep working.
+        </p>
+
+        <div class="ad">ADVERT</div>
+
+        <h2 id="results">Results</h2>
+        <p>
+          In a small internal study, readers who used a line reported fewer regressions — going
+          back to re-read the same sentence — and finished long passages slightly faster. The
+          effect was largest for readers who already used a ruler on paper.
+        </p>
+        <p>
+          The same idea transfers to documents. Papers, reports and textbooks are often read in
+          the browser, and a line that only works on web pages misses half of a student's
+          reading. That is why the reading line also works inside a built-in PDF reader, with the
+          same controls and the same keyboard shortcuts.
+        </p>
+
+        <h2 id="conclusion">Conclusion</h2>
+        <p>
+          Focus is not a personality trait; it is a property of the page. Give a reader one line
+          of calm and the rest of the text gets out of the way.
+        </p>
+
+        <div class="tags">
+          <span>reading</span><span>accessibility</span><span>focus</span><span>ADHD</span
+          ><span>dyslexia</span><span>PDF</span>
+        </div>
+      </article>
+
+      <aside>
+        <aside class="card">
+          <h3>Newsletter</h3>
+          Get one reading tip a week. No spam.
+        </aside>
+        <aside class="card">
+          <h3>Related</h3>
+          Why line length matters<br />
+          The case for larger type<br />
+          Reading on paper vs. screen
+        </aside>
+        <div class="ad" style="height: 240px">AD</div>
+      </aside>
+    </div>
+
+  </body>
+</html>

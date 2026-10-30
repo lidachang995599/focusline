@@ -1,0 +1,326 @@
+{
+  "extName": {
+    "message": "FocusLine — ADHD Reading Line & Focus Mode"
+  },
+  "extDescription": {
+    "message": "A draggable reading line that dims everything else. Built for ADHD and dyslexia readers. Local-only, no account."
+  },
+  "popupTitle": {
+    "message": "FocusLine"
+  },
+  "toggleTitle": {
+    "message": "Toggle the reading line"
+  },
+  "toggleAria": {
+    "message": "Toggle the reading line"
+  },
+  "lineHeight": {
+    "message": "Line height"
+  },
+  "dim": {
+    "message": "Dim"
+  },
+  "followCursor": {
+    "message": "Follow cursor"
+  },
+  "calmMode": {
+    "message": "Calm mode"
+  },
+  "calmModeHint": {
+    "message": "— stop animations"
+  },
+  "hideElement": {
+    "message": "Hide an element…"
+  },
+  "resetHidden": {
+    "message": "Reset hidden"
+  },
+  "lineColour": {
+    "message": "Line colour"
+  },
+  "autoRun": {
+    "message": "Run automatically on this site"
+  },
+  "noActiveTab": {
+    "message": "No active tab."
+  },
+  "unsupportedPage": {
+    "message": "This page cannot be used with extensions."
+  },
+  "unsupportedHint": {
+    "message": "Open a normal website (http / https) and try again."
+  },
+  "reloadHint": {
+    "message": "Reload the page and try again."
+  },
+  "hudDrag": {
+    "message": "Drag the handle, or press Alt + ↑ / ↓"
+  },
+  "hudFollow": {
+    "message": "Reading line on · following the cursor"
+  },
+  "hudPick": {
+    "message": "Click the element to hide · Esc to cancel"
+  },
+  "hudHidden": {
+    "message": "Hidden. Undo it from the FocusLine menu."
+  },
+  "moveLine": {
+    "message": "Move the reading line"
+  },
+  "welcomeTitle": {
+    "message": "Welcome to FocusLine"
+  },
+  "welcomeH1": {
+    "message": "FocusLine is installed"
+  },
+  "welcomeLead": {
+    "message": "A draggable reading line that dims everything else. Built for ADHD and dyslexia readers — no account, no tracking, nothing leaves your browser."
+  },
+  "step1Title": {
+    "message": "Open any long page"
+  },
+  "step1Body": {
+    "message": "Click the FocusLine icon, flip the switch, and the page dims around the line you are reading."
+  },
+  "step2Title": {
+    "message": "Put the line where your eyes rest"
+  },
+  "step2Body": {
+    "message": "Drag the handle on the right, or press <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>. Add <kbd>Shift</kbd> to change the band height."
+  },
+  "step3Title": {
+    "message": "Make the page quiet"
+  },
+  "step3Body": {
+    "message": "Calm mode stops animations. You can also hide floating banners and sidebars with one click."
+  },
+  "calloutTitle": {
+    "message": "Your settings follow the site"
+  },
+  "calloutBody": {
+    "message": "Every website remembers its own line height, dim level, and hidden elements."
+  },
+  "shortcutLabel": {
+    "message": "Toggle anywhere"
+  },
+  "privacyTitle": {
+    "message": "Privacy"
+  },
+  "privacyBody": {
+    "message": "FocusLine stores your settings in <code>chrome.storage.local</code> on this device. It never sends page content, browsing history, or settings anywhere, and it makes no network requests at all."
+  },
+  "footerPin": {
+    "message": "Pin FocusLine to your toolbar for one-click access."
+  },
+  "footerHelp": {
+    "message": "Need help?"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "languageAuto": {
+    "message": "Auto (browser)"
+  },
+  "textPanel": {
+    "message": "Text"
+  },
+  "textSize": {
+    "message": "Text size"
+  },
+  "textLineHeight": {
+    "message": "Line height"
+  },
+  "textSpacing": {
+    "message": "Letter spacing"
+  },
+  "textTheme": {
+    "message": "Theme"
+  },
+  "resetText": {
+    "message": "Reset text"
+  },
+  "themeDefault": {
+    "message": "Default"
+  },
+  "themePaper": {
+    "message": "Paper"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "themeContrast": {
+    "message": "High contrast"
+  },
+  "colourSky": {
+    "message": "Sky blue"
+  },
+  "colourAmber": {
+    "message": "Amber"
+  },
+  "colourViolet": {
+    "message": "Violet"
+  },
+  "colourGreen": {
+    "message": "Green"
+  },
+  "colourRose": {
+    "message": "Rose"
+  },
+  "readAloud": {
+    "message": "Read aloud"
+  },
+  "readPause": {
+    "message": "Pause"
+  },
+  "readResume": {
+    "message": "Resume"
+  },
+  "readStop": {
+    "message": "Stop reading"
+  },
+  "readSpeed": {
+    "message": "Reading speed"
+  },
+  "hudSpeaking": {
+    "message": "Reading aloud · Esc to stop"
+  },
+  "hudPaused": {
+    "message": "Reading paused"
+  },
+  "readNoText": {
+    "message": "No readable text found"
+  },
+  "readNoVoice": {
+    "message": "No local voice available"
+  },
+  "readUnsupported": {
+    "message": "This browser cannot read aloud"
+  },
+  "presetReading": {
+    "message": "Dyslexia-friendly preset"
+  },
+  "readHighlight": {
+    "message": "Highlight colour"
+  },
+  "colourOrange": {
+    "message": "Orange"
+  },
+  "readLanguage": {
+    "message": "Reading language"
+  },
+  "readLangAuto": {
+    "message": "Auto (page / interface)"
+  },
+  "shortcutReset": {
+    "message": "Reset"
+  },
+  "placeHint": {
+    "message": "Alt + click anywhere to place the line"
+  },
+  "guideLabel": {
+    "message": "Colour guide"
+  },
+  "guideOff": {
+    "message": "Off"
+  },
+  "guideWords": {
+    "message": "Words"
+  },
+  "guideSentence": {
+    "message": "Sentence"
+  },
+  "lockLine": {
+    "message": "Lock position"
+  },
+  "hudLocked": {
+    "message": "Line locked"
+  },
+  "hudUnlocked": {
+    "message": "Line released"
+  },
+  "pdfTitle": {
+    "message": "This is a PDF"
+  },
+  "pdfHint": {
+    "message": "Chrome's built-in viewer cannot be modified by extensions. Open the file in FocusLine Reader to get the reading line."
+  },
+  "pdfOpen": {
+    "message": "Open in FocusLine Reader"
+  },
+  "pdfReader": {
+    "message": "Reader"
+  },
+  "pdfOpenFile": {
+    "message": "Open file…"
+  },
+  "pdfEmptyTitle": {
+    "message": "Open a PDF to start"
+  },
+  "pdfEmptyHint": {
+    "message": "Drop a PDF anywhere on this page, or use “Open file…”."
+  },
+  "pdfErrorTitle": {
+    "message": "This PDF could not be opened"
+  },
+  "pdfRetry": {
+    "message": "Try again"
+  },
+  "pdfNeedPermission": {
+    "message": "FocusLine needs access to this site to read the PDF. Open it from the FocusLine popup so the extension can ask for permission."
+  },
+  "pdfClose": {
+    "message": "Close file"
+  },
+  "snapLines": {
+    "message": "Snap to text lines"
+  },
+  "hudSnap": {
+    "message": "Reading line on · snapping to text lines"
+  },
+  "guideColours": {
+    "message": "Guide colours"
+  },
+  "pinHint": {
+    "message": "Alt + click pins the line · Alt + right-click releases it"
+  },
+  "panelCollapse": {
+    "message": "Hide controls"
+  },
+  "panelShow": {
+    "message": "Show controls"
+  },
+  "shortcutsTitle": {
+    "message": "Keyboard shortcuts"
+  },
+  "scLock": {
+    "message": "Lock or release the line"
+  },
+  "scMove": {
+    "message": "Move the line"
+  },
+  "scResize": {
+    "message": "Make the line taller or shorter"
+  },
+  "scPlace": {
+    "message": "Place the line on a line of text"
+  },
+  "scRelease": {
+    "message": "Release the lock"
+  },
+  "scRebind": {
+    "message": "Change the toggle and lock keys in your browser's extension shortcuts page."
+  },
+  "scPlaceKey": {
+    "message": "Alt + click"
+  },
+  "scReleaseKey": {
+    "message": "Alt + right-click"
+  },
+  "openReader": {
+    "message": "Open PDF Reader"
+  },
+  "translationNote": {
+    "message": "Spotted a translation mistake? Let the developer know."
+  }
+}

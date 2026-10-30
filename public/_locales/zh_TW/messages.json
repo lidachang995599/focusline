@@ -1,0 +1,326 @@
+{
+  "extName": {
+    "message": "FocusLine — 閱讀線 · ADHD 專注閱讀"
+  },
+  "extDescription": {
+    "message": "可拖曳的閱讀線，壓暗周圍內容。為 ADHD 與閱讀障礙使用者設計，純本機執行，無需帳號。"
+  },
+  "popupTitle": {
+    "message": "FocusLine"
+  },
+  "toggleTitle": {
+    "message": "開啟或關閉閱讀線"
+  },
+  "toggleAria": {
+    "message": "開啟或關閉閱讀線"
+  },
+  "lineHeight": {
+    "message": "線高"
+  },
+  "dim": {
+    "message": "暗度"
+  },
+  "followCursor": {
+    "message": "跟隨游標"
+  },
+  "calmMode": {
+    "message": "靜心模式"
+  },
+  "calmModeHint": {
+    "message": "— 停止頁面動畫"
+  },
+  "hideElement": {
+    "message": "隱藏頁面元素…"
+  },
+  "resetHidden": {
+    "message": "還原已隱藏元素"
+  },
+  "lineColour": {
+    "message": "線條顏色"
+  },
+  "autoRun": {
+    "message": "在此網站自動開啟"
+  },
+  "noActiveTab": {
+    "message": "沒有作用中的分頁。"
+  },
+  "unsupportedPage": {
+    "message": "此頁面不支援擴充功能。"
+  },
+  "unsupportedHint": {
+    "message": "請開啟一般網頁（http / https）後再試。"
+  },
+  "reloadHint": {
+    "message": "重新整理頁面後再試。"
+  },
+  "hudDrag": {
+    "message": "拖曳握把，或按 Alt + ↑ / ↓ 調整"
+  },
+  "hudFollow": {
+    "message": "閱讀線已開啟 · 跟隨游標"
+  },
+  "hudPick": {
+    "message": "點選要隱藏的元素 · Esc 取消"
+  },
+  "hudHidden": {
+    "message": "已隱藏，可從 FocusLine 選單還原。"
+  },
+  "moveLine": {
+    "message": "移動閱讀線"
+  },
+  "welcomeTitle": {
+    "message": "歡迎使用 FocusLine"
+  },
+  "welcomeH1": {
+    "message": "FocusLine 已安裝"
+  },
+  "welcomeLead": {
+    "message": "可拖曳的閱讀線，壓暗周圍內容。為 ADHD 與閱讀障礙使用者設計——無帳號、無追蹤、資料不離開瀏覽器。"
+  },
+  "step1Title": {
+    "message": "開啟任意長頁面"
+  },
+  "step1Body": {
+    "message": "點 FocusLine 圖示，開啟開關，頁面就會圍繞你正在讀的那一行變暗。"
+  },
+  "step2Title": {
+    "message": "把線放到眼睛自然停留的位置"
+  },
+  "step2Body": {
+    "message": "拖曳右側握把，或按 <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>；加 <kbd>Shift</kbd> 調線高。"
+  },
+  "step3Title": {
+    "message": "讓頁面安靜下來"
+  },
+  "step3Body": {
+    "message": "靜心模式會停止動畫；還能一鍵隱藏浮動視窗與側欄。"
+  },
+  "calloutTitle": {
+    "message": "設定跟著網站走"
+  },
+  "calloutBody": {
+    "message": "每個網站都會記住自己的線高、暗度與已隱藏元素。"
+  },
+  "shortcutLabel": {
+    "message": "隨時開關"
+  },
+  "privacyTitle": {
+    "message": "隱私"
+  },
+  "privacyBody": {
+    "message": "FocusLine 只把設定保存在本機的 <code>chrome.storage.local</code>，不會上傳頁面內容、瀏覽紀錄或設定，也不會發起任何網路請求。"
+  },
+  "footerPin": {
+    "message": "把 FocusLine 固定到工具列，一鍵開啟。"
+  },
+  "footerHelp": {
+    "message": "需要協助？"
+  },
+  "language": {
+    "message": "語言"
+  },
+  "languageAuto": {
+    "message": "自動（跟隨瀏覽器）"
+  },
+  "textPanel": {
+    "message": "文字"
+  },
+  "textSize": {
+    "message": "字級"
+  },
+  "textLineHeight": {
+    "message": "行高"
+  },
+  "textSpacing": {
+    "message": "字距"
+  },
+  "textTheme": {
+    "message": "主題"
+  },
+  "resetText": {
+    "message": "重設排版"
+  },
+  "themeDefault": {
+    "message": "預設"
+  },
+  "themePaper": {
+    "message": "紙色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "themeContrast": {
+    "message": "高對比"
+  },
+  "colourSky": {
+    "message": "天藍"
+  },
+  "colourAmber": {
+    "message": "琥珀黃"
+  },
+  "colourViolet": {
+    "message": "紫羅蘭"
+  },
+  "colourGreen": {
+    "message": "綠色"
+  },
+  "colourRose": {
+    "message": "玫瑰紅"
+  },
+  "readAloud": {
+    "message": "朗讀"
+  },
+  "readPause": {
+    "message": "暫停"
+  },
+  "readResume": {
+    "message": "繼續"
+  },
+  "readStop": {
+    "message": "停止朗讀"
+  },
+  "readSpeed": {
+    "message": "朗讀速度"
+  },
+  "hudSpeaking": {
+    "message": "朗讀中 · Esc 停止"
+  },
+  "hudPaused": {
+    "message": "朗讀已暫停"
+  },
+  "readNoText": {
+    "message": "找不到可朗讀的文字"
+  },
+  "readNoVoice": {
+    "message": "沒有可用的本機語音"
+  },
+  "readUnsupported": {
+    "message": "此瀏覽器不支援朗讀"
+  },
+  "presetReading": {
+    "message": "閱讀障礙友善預設"
+  },
+  "readHighlight": {
+    "message": "高亮顏色"
+  },
+  "colourOrange": {
+    "message": "橙色"
+  },
+  "readLanguage": {
+    "message": "朗讀語言"
+  },
+  "readLangAuto": {
+    "message": "自動（頁面 / 介面）"
+  },
+  "shortcutReset": {
+    "message": "重設"
+  },
+  "placeHint": {
+    "message": "按住 Alt 點擊頁面，把閱讀線放到那一行"
+  },
+  "guideLabel": {
+    "message": "色彩引導"
+  },
+  "guideOff": {
+    "message": "關閉"
+  },
+  "guideWords": {
+    "message": "逐詞"
+  },
+  "guideSentence": {
+    "message": "整句"
+  },
+  "lockLine": {
+    "message": "固定位置"
+  },
+  "hudLocked": {
+    "message": "閱讀線已固定"
+  },
+  "hudUnlocked": {
+    "message": "閱讀線已解除固定"
+  },
+  "pdfTitle": {
+    "message": "這是一個 PDF"
+  },
+  "pdfHint": {
+    "message": "Chrome 內建的 PDF 檢視器不允許擴充功能修改，用 FocusLine Reader 開啟才能顯示閱讀線。"
+  },
+  "pdfOpen": {
+    "message": "用 FocusLine Reader 開啟"
+  },
+  "pdfReader": {
+    "message": "閱讀器"
+  },
+  "pdfOpenFile": {
+    "message": "開啟檔案…"
+  },
+  "pdfEmptyTitle": {
+    "message": "開啟一個 PDF 開始"
+  },
+  "pdfEmptyHint": {
+    "message": "把 PDF 拖到這個頁面任意位置，或點「開啟檔案…」。"
+  },
+  "pdfErrorTitle": {
+    "message": "這個 PDF 打不開"
+  },
+  "pdfRetry": {
+    "message": "重試"
+  },
+  "pdfNeedPermission": {
+    "message": "FocusLine 需要存取該網站的權限才能讀取 PDF。請從彈窗開啟，擴充功能才能申請權限。"
+  },
+  "pdfClose": {
+    "message": "關閉檔案"
+  },
+  "snapLines": {
+    "message": "吸附到文字行"
+  },
+  "hudSnap": {
+    "message": "閱讀線開啟 · 吸附到文字行"
+  },
+  "guideColours": {
+    "message": "引導顏色"
+  },
+  "pinHint": {
+    "message": "Alt + 左鍵固定閱讀線 · Alt + 右鍵解除"
+  },
+  "panelCollapse": {
+    "message": "收合控制面板"
+  },
+  "panelShow": {
+    "message": "顯示控制面板"
+  },
+  "shortcutsTitle": {
+    "message": "快速鍵"
+  },
+  "scLock": {
+    "message": "鎖定或解除閱讀線"
+  },
+  "scMove": {
+    "message": "上下移動閱讀線"
+  },
+  "scResize": {
+    "message": "加高或降低閱讀線"
+  },
+  "scPlace": {
+    "message": "把閱讀線放到某一文字行"
+  },
+  "scRelease": {
+    "message": "解除鎖定"
+  },
+  "scRebind": {
+    "message": "開關和鎖定的快速鍵可在瀏覽器的擴充功能快速鍵頁面修改。"
+  },
+  "scPlaceKey": {
+    "message": "Alt + 左鍵"
+  },
+  "scReleaseKey": {
+    "message": "Alt + 右鍵"
+  },
+  "openReader": {
+    "message": "開啟 PDF 閱讀器"
+  },
+  "translationNote": {
+    "message": "發現翻譯錯誤？請聯絡開發者。"
+  }
+}
